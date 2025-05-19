@@ -1,0 +1,3 @@
+Icon_1 ICON "Resource\\Icons\\cash.ico"
+Icon_2 ICON "Resource\\Icons\\cashnew.ico"
+PngImage_2 RCDATA "Resource\\Icons\\cashnew.png"

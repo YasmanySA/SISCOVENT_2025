@@ -1,0 +1,209 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Condition="Exists('$(BDS)\bin\CodeGear.Deployment.targets')" Project="$(BDS)\bin\CodeGear.Deployment.targets"/>
+    <ProjectExtensions>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <PropertyGroup/>
+    <ItemGroup Condition="'$(Platform)'=='iOSDevice64'"/>
+    <ItemGroup Condition="'$(Platform)'=='Win64'">
+        <DeployFile Include="exe\SISCOVENTv3.exe" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>SISCOVENTv3.exe</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="Win64\Debug\Reportes\Codigos Ventas.fr3" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\Reportes\</RemoteDir>
+            <RemoteName>Codigos Ventas.fr3</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win64\Debug\Filtros\GastosGenerales.flt" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\Filtros\</RemoteDir>
+            <RemoteName>GastosGenerales.flt</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="exe\SISCOVENTv3.rsm" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>SISCOVENTv3.rsm</RemoteName>
+            <DeployClass>DebugSymbols</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_SISCOVENTv3\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_SISCOVENTv3\default.txvpck" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>default.txvpck</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_SISCOVENTv3\dataContratosEntrada\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_SISCOVENTv3\dataContratosEntrada\default.txvpck" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>default.txvpck</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin64\midas.dll" Condition="'$(Config)'=='Release'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>midas.dll</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_SISCOVENTv3\SISCOVENTv3\default.txvpck" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>default.txvpck</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win64\Debug\Filtros\GastosInsumos.flt" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\Filtros\</RemoteDir>
+            <RemoteName>GastosInsumos.flt</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win64\Debug\Graphic\cash.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\Graphic\</RemoteDir>
+            <RemoteName>cash.png</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin64\midas.dll" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>midas.dll</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win64\Debug\Reportes\Tiket.fr3" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\Reportes\</RemoteDir>
+            <RemoteName>Tiket.fr3</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win64\Debug\RandomDLL.dll" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>RandomDLL.dll</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_SISCOVENTv3\dataEfectivos\default.txvpck" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>default.txvpck</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+    </ItemGroup>
+    <ItemGroup Condition="'$(Platform)'=='Win32'">
+        <DeployFile Include="Win32\Debug\SISCOVENTv3.exe" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>SISCOVENTv3.exe</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin\midas.dll" Condition="'$(Config)'=='Release'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>midas.dll</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin\midas.dll" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3\</RemoteDir>
+            <RemoteName>midas.dll</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+    </ItemGroup>
+    <ItemGroup Condition="'$(Platform)'=='Linux64'"/>
+    <ItemGroup Condition="'$(Platform)'=='OSX64'"/>
+    <ItemGroup Condition="'$(Platform)'=='Android'"/>
+    <ItemGroup Condition="'$(Platform)'=='iOSSimulator'">
+        <DeployFile Include="$(BDS)\redist\iossimulator\libmidas.dylib" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SISCOVENTv3.app\</RemoteDir>
+            <RemoteName>libmidas.dylib</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\redist\iossimulator\libmidas.dylib" Condition="'$(Config)'=='Release'">
+            <RemoteDir>SISCOVENTv3.app\</RemoteDir>
+            <RemoteName>libmidas.dylib</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+    </ItemGroup>
+    <ItemGroup Condition="'$(Platform)'=='Android64'"/>
+</Project>
