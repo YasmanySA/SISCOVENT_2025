@@ -1,0 +1,483 @@
+object mdataVentas: TmdataVentas
+  Left = 0
+  Top = 0
+  ClientHeight = 504
+  ClientWidth = 923
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DSVentasCaja: TUniDataSource
+    DataSet = tbCaja
+    Left = 128
+    Top = 40
+  end
+  object DSHistorico_Ventas: TUniDataSource
+    Left = 568
+    Top = 320
+  end
+  object tbCaja: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      ' SELECT *'
+      '  FROM tbVentasCajaQ'
+      ''
+      'where history = 0')
+    DMLRefresh = True
+    Active = True
+    CheckMode = cmNone
+    Left = 40
+    Top = 40
+    object tbCajaNoComp: TLargeintField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'NoComp'
+      ReadOnly = True
+      Required = True
+    end
+    object tbCajaNoOperacion: TStringField
+      FieldName = 'NoOperacion'
+      Size = 10
+    end
+    object tbCajaUsuario: TWideStringField
+      FieldName = 'Usuario'
+      Size = 50
+    end
+    object tbCajaFecha: TDateTimeField
+      FieldName = 'Fecha'
+    end
+    object tbCajaHora: TDateTimeField
+      FieldName = 'Hora'
+    end
+    object tbCajaTotalVentaCUP: TCurrencyField
+      FieldName = 'TotalVentaCUP'
+    end
+    object tbCajaEfectivoCUP: TCurrencyField
+      FieldName = 'EfectivoCUP'
+    end
+    object tbCajaEfectivoEUR: TCurrencyField
+      FieldName = 'EfectivoEUR'
+    end
+    object tbCajaEfectivoUSD: TCurrencyField
+      FieldName = 'EfectivoUSD'
+    end
+    object tbCajaEfectivoCUC: TCurrencyField
+      FieldName = 'EfectivoCUC'
+    end
+    object tbCajaComercioE_CUP: TCurrencyField
+      FieldName = 'ComercioE_CUP'
+    end
+    object tbCajaComercioE_USD: TCurrencyField
+      FieldName = 'ComercioE_USD'
+    end
+    object tbCajaNoTarjetaCredito: TStringField
+      FieldName = 'NoTarjetaCredito'
+      Size = 30
+    end
+    object tbCajanameComercio: TStringField
+      FieldName = 'nameComercio'
+      Size = 30
+    end
+    object tbCajaPropina: TCurrencyField
+      FieldName = 'Propina'
+    end
+    object tbCajaCambioCUP: TCurrencyField
+      FieldName = 'CambioCUP'
+      ReadOnly = True
+    end
+    object tbCajaGastosGenerales: TCurrencyField
+      FieldName = 'GastosGenerales'
+    end
+    object tbCajaGastosInsumos: TCurrencyField
+      FieldName = 'GastosInsumos'
+    end
+    object tbCajahistory: TBooleanField
+      FieldName = 'history'
+    end
+    object tbCajaVentaCool: TBooleanField
+      FieldName = 'VentaCool'
+    end
+  end
+  object tbVentasOperaciones: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      'SELECT * FROM QVentasOperaciones'
+      '')
+    MasterSource = DSVentasCaja
+    MasterFields = 'NoComp;NoOperacion;Fecha'
+    DetailFields = 'enlace_id;enlace_operacion;Fecha'
+    Active = True
+    Left = 48
+    Top = 184
+    ParamData = <
+      item
+        DataType = ftLargeint
+        Name = 'NoComp'
+        ParamType = ptInput
+        Value = nil
+      end
+      item
+        DataType = ftString
+        Name = 'NoOperacion'
+        ParamType = ptInput
+        Value = nil
+      end
+      item
+        DataType = ftDateTime
+        Name = 'Fecha'
+        ParamType = ptInput
+        Value = nil
+      end>
+    object tbVentasOperacionesID: TLargeintField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'ID'
+      ReadOnly = True
+      Required = True
+    end
+    object tbVentasOperacionesenlace_id: TLargeintField
+      FieldName = 'enlace_id'
+    end
+    object tbVentasOperacionesenlace_operacion: TStringField
+      FieldName = 'enlace_operacion'
+      Size = 10
+    end
+    object tbVentasOperacionesFecha: TDateTimeField
+      FieldName = 'Fecha'
+    end
+    object tbVentasOperacioneshora: TTimeField
+      FieldName = 'hora'
+    end
+    object tbVentasOperacionesServicios: TWideStringField
+      FieldName = 'Servicios'
+      Size = 100
+    end
+    object tbVentasOperacionesDescripcion: TWideStringField
+      FieldName = 'Descripcion'
+      Size = 100
+    end
+    object tbVentasOperacionesPrecioCUP: TCurrencyField
+      FieldName = 'PrecioCUP'
+    end
+    object tbVentasOperacionesCantidad: TCurrencyField
+      FieldName = 'Cantidad'
+    end
+    object tbVentasOperacionesSubtotalCUP: TCurrencyField
+      FieldName = 'SubtotalCUP'
+      ReadOnly = True
+    end
+    object tbVentasOperacionesGastosInsumos: TCurrencyField
+      FieldName = 'GastosInsumos'
+    end
+    object tbVentasOperacionesGastosGenerales: TCurrencyField
+      FieldName = 'GastosGenerales'
+    end
+    object tbVentasOperacionesTotalInsumos: TCurrencyField
+      FieldName = 'TotalInsumos'
+      ReadOnly = True
+    end
+    object tbVentasOperacionesTotalGenerales: TCurrencyField
+      FieldName = 'TotalGenerales'
+      ReadOnly = True
+    end
+  end
+  object DSVentasOperaciones: TUniDataSource
+    DataSet = tbVentasOperaciones
+    Left = 176
+    Top = 184
+  end
+  object tbOperacionesTotal: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      
+        'SELECT        enlace_id, SUM(TotalGenerales) AS TotalGenerales, ' +
+        'SUM(TotalInsumos) AS TotalInsumos, SUM(SubtotalCUP) AS SubtotalC' +
+        'UP'
+      'FROM            dbo.QVentasOperaciones'
+      'GROUP BY enlace_id')
+    MasterSource = DSVentasCaja
+    MasterFields = 'NoComp'
+    DetailFields = 'enlace_id'
+    Active = True
+    Left = 168
+    Top = 336
+    ParamData = <
+      item
+        DataType = ftLargeint
+        Name = 'NoComp'
+        ParamType = ptInput
+        Value = nil
+      end>
+    object tbOperacionesTotalenlace_id: TLargeintField
+      FieldName = 'enlace_id'
+    end
+    object tbOperacionesTotalTotalGenerales: TCurrencyField
+      FieldName = 'TotalGenerales'
+      ReadOnly = True
+    end
+    object tbOperacionesTotalTotalInsumos: TCurrencyField
+      FieldName = 'TotalInsumos'
+      ReadOnly = True
+    end
+    object tbOperacionesTotalSubtotalCUP: TCurrencyField
+      FieldName = 'SubtotalCUP'
+      ReadOnly = True
+    end
+  end
+  object Tbdescrip: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      
+        'SELECT * FROM [dbo].[tbServiceDescrip] WHERE [frequently_use] = ' +
+        'N'#39'1'#39' AND [Habilitado] = N'#39'1'#39' ORDER BY [usedate] DESC')
+    Active = True
+    Left = 685
+    Top = 175
+    object Tbdescripid_enlace: TIntegerField
+      FieldName = 'id_enlace'
+    end
+    object Tbdescripfrequently_use: TBooleanField
+      FieldName = 'frequently_use'
+    end
+    object Tbdescripusedate: TDateTimeField
+      FieldName = 'usedate'
+    end
+    object TbdescripDescripcion: TWideStringField
+      FieldName = 'Descripcion'
+      Size = 50
+    end
+    object TbdescripHabilitado: TBooleanField
+      FieldName = 'Habilitado'
+      Required = True
+    end
+    object TbdescripCod_Descrip: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'Cod_Descrip'
+      ReadOnly = True
+      Required = True
+    end
+    object TbdescripCodigoProducto: TWideStringField
+      FieldName = 'CodigoProducto'
+      Size = 25
+    end
+    object TbdescripProducto: TWideStringField
+      FieldName = 'Producto'
+      FixedChar = True
+      Size = 75
+    end
+    object TbdescripServicio: TWideStringField
+      FieldName = 'Servicio'
+      FixedChar = True
+      Size = 75
+    end
+    object Tbdescripcolor: TStringField
+      FieldName = 'color'
+      Size = 30
+    end
+  end
+  object DSClasif_Descrip: TUniDataSource
+    DataSet = Tbdescrip
+    Left = 730
+    Top = 310
+  end
+  object q_clearservices_usefrecuenty: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      'UPDATE '
+      '  dbo.tbServiceDescrip'
+      'SET'
+      '  frequently_use = '#39'0'#39','
+      '  usedate = null'
+      'WHERE'
+      '  dbo.tbServiceDescrip.frequently_use = 1 AND '
+      '  dbo.tbServiceDescrip.usedate IS NOT NULL')
+    Left = 453
+    Top = 143
+    object IntegerField1: TIntegerField
+      FieldName = 'id_enlace'
+    end
+    object BooleanField2: TBooleanField
+      FieldName = 'frequently_use'
+    end
+    object DateTimeField2: TDateTimeField
+      FieldName = 'usedate'
+    end
+    object WideStringField2: TWideStringField
+      FieldName = 'Descripcion'
+      Size = 50
+    end
+    object BooleanField3: TBooleanField
+      FieldName = 'Habilitado'
+      Required = True
+    end
+    object IntegerField2: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'Cod_Descrip'
+      ReadOnly = True
+      Required = True
+    end
+    object WideStringField3: TWideStringField
+      FieldName = 'CodigoProducto'
+      Size = 25
+    end
+    object WideStringField4: TWideStringField
+      FieldName = 'Producto'
+      FixedChar = True
+      Size = 75
+    end
+    object WideStringField5: TWideStringField
+      FieldName = 'Servicio'
+      FixedChar = True
+      Size = 75
+    end
+    object StringField4: TStringField
+      FieldName = 'color'
+      Size = 30
+    end
+  end
+  object tbVentaOperacionesFind: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      'SELECT *'
+      'FROM'
+      '  dbo.QVentasOperaciones'
+      'WHERE'
+      '  Descripcion = :descripcion')
+    MasterSource = DSVentasCaja
+    MasterFields = 'NoComp;NoOperacion;Fecha'
+    DetailFields = 'enlace_id;enlace_operacion;Fecha'
+    Active = True
+    Left = 496
+    Top = 416
+    ParamData = <
+      item
+        DataType = ftUnknown
+        Name = 'descripcion'
+        Value = Null
+      end
+      item
+        DataType = ftLargeint
+        Name = 'NoComp'
+        ParamType = ptInput
+        Value = nil
+      end
+      item
+        DataType = ftString
+        Name = 'NoOperacion'
+        ParamType = ptInput
+        Value = nil
+      end
+      item
+        DataType = ftDateTime
+        Name = 'Fecha'
+        ParamType = ptInput
+        Value = nil
+      end>
+    object tbVentaOperacionesFindID: TLargeintField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'ID'
+      ReadOnly = True
+      Required = True
+    end
+    object tbVentaOperacionesFindenlace_id: TLargeintField
+      FieldName = 'enlace_id'
+    end
+    object tbVentaOperacionesFindenlace_operacion: TStringField
+      FieldName = 'enlace_operacion'
+      Size = 10
+    end
+    object tbVentaOperacionesFindFecha: TDateTimeField
+      FieldName = 'Fecha'
+    end
+    object tbVentaOperacionesFindhora: TTimeField
+      FieldName = 'hora'
+    end
+    object tbVentaOperacionesFindServicios: TWideStringField
+      FieldName = 'Servicios'
+      Size = 100
+    end
+    object tbVentaOperacionesFindDescripcion: TWideStringField
+      FieldName = 'Descripcion'
+      Size = 100
+    end
+    object tbVentaOperacionesFindPrecioCUP: TCurrencyField
+      FieldName = 'PrecioCUP'
+    end
+    object tbVentaOperacionesFindCantidad: TCurrencyField
+      FieldName = 'Cantidad'
+    end
+    object tbVentaOperacionesFindSubtotalCUP: TCurrencyField
+      FieldName = 'SubtotalCUP'
+      ReadOnly = True
+    end
+    object tbVentaOperacionesFindGastosInsumos: TCurrencyField
+      FieldName = 'GastosInsumos'
+    end
+    object tbVentaOperacionesFindGastosGenerales: TCurrencyField
+      FieldName = 'GastosGenerales'
+    end
+    object tbVentaOperacionesFindTotalInsumos: TCurrencyField
+      FieldName = 'TotalInsumos'
+      ReadOnly = True
+    end
+    object tbVentaOperacionesFindTotalGenerales: TCurrencyField
+      FieldName = 'TotalGenerales'
+      ReadOnly = True
+    end
+  end
+  object DStbVentaOperacionesFind: TUniDataSource
+    DataSet = tbVentaOperacionesFind
+    Left = 656
+    Top = 432
+  end
+  object tbServices: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      'SELECT        Servicio'
+      'FROM            dbo.tbServiceDescrip'
+      'WHERE        (frequently_use = N'#39'1'#39') AND (Habilitado = N'#39'1'#39')'
+      'GROUP BY Servicio')
+    Active = True
+    Left = 765
+    Top = 215
+    object tbServicesServicio: TWideStringField
+      FieldName = 'Servicio'
+      FixedChar = True
+      Size = 75
+    end
+  end
+  object DStbServices: TUniDataSource
+    DataSet = tbServices
+    Left = 810
+    Top = 302
+  end
+  object qlastnumber: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      'SELECT        MAX(NoComp) AS lastnumber'
+      'FROM            dbo.Historico_tbVentasCaja')
+    Active = True
+    Left = 357
+    Top = 255
+    object qlastnumberlastnumber: TLargeintField
+      FieldName = 'lastnumber'
+      ReadOnly = True
+    end
+  end
+  object qreset_inc: TUniQuery
+    Connection = dataconex.ConexDB
+    SQL.Strings = (
+      'dbcc CHECKIDENT (Historico_tbVentasCaja,RESEED,:rest)')
+    Left = 349
+    Top = 359
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'rest'
+        Value = Null
+      end>
+  end
+end
