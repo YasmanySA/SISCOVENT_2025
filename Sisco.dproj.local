@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/09/05 18:58:45.000.473,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit35.pas</Transaction>
+    <Transaction>2020/09/05 22:04:27.000.120,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit35.pas</Transaction>
+    <Transaction>2020/09/07 10:52:43.000.714,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit35.pas</Transaction>
+    <Transaction>2020/09/07 17:18:40.000.868,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit35.pas</Transaction>
+    <Transaction>2020/09/10 09:06:24.000.555,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit35.pas</Transaction>
+    <Transaction>2020/09/10 09:06:35.000.052,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project32.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Sisco.dproj</Transaction>
+    <Transaction>2020/09/10 09:08:00.000.437,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit35.dfm=D:\01Programación\Software\SISCOVENT 2.2\uMain.dfm</Transaction>
+    <Transaction>2020/09/10 09:08:00.000.437,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit35.pas=D:\01Programación\Software\SISCOVENT 2.2\uMain.pas</Transaction>
+    <Transaction>2020/09/10 09:08:08.000.368,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Sisco.dproj=D:\01Programación\Software\SISCOVENT 2.2\Sisco.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<P1 iOSSimulator="iPhone5"/>
+		<NoProfile Android64="AVD_for_Nexus" Android="AVD_for_Nexus_5_by_Google"/>
+	</ActiveMobileDevice>
+</BorlandProject>
