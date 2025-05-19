@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.RegistroUser" Type="System.String" Value="RegistroUser" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.NewPrereserva" Type="System.String" Value="NewPrereserva" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.AdminPass" Type="System.String" Value="AdminPass" Category="General" IsBrowsable="False" />
+</TgConfig>

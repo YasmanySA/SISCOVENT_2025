@@ -1,0 +1,480 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A37E04AD-ADBA-48BF-A725-EB10BD13E285}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv4.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Electricidad\Electricidad.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Service\ServerSPA.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="App\StudioPlayAzul2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="App\GestorDB.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aplicacion Android\StudioPlayAzul.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\DevExpress_VCL_18.1.6_Full\ExpressEditors Library\Demos\Delphi\ImageViewerDemo\ImageViewerDemoD26.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\Borrar\soft\Demos\Object Pascal\Mobile Snippets\ShareSheet\ShareSheet.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\Borrar\soft\Demos\Object Pascal\Multi-Device Samples\User Interface\LowLevel3D\LowLevel3D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\FMXComponents-master\FMXComponents-master\Demo\ImageSliderDemo\ImageSliderDemo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\Borrar\soft\Demos\Object Pascal\Multi-Device Samples\User Interface\PlatformScrollBox\ScrollBoxPlatform.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\no\Numeros Aleatorio\Project14.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\no\Compra de Licencias\BuyLicence.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Programacion\Android\Jewel\Jewely.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\KastriFree-master\KastriFree-master\Demos\AndroidDangerousPermissions\AndroidDangerousPermissions.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Tutorial\AjpdSoft\AjpdSoft Tamaño fichero\TamanoFichero.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv858\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSndAsync.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv858\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Game\CaminoCanaan\App\LaTierraPrometida.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv844\Samples\Delphi\SocketDemos\OverbyteIcsRecv.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv844\Samples\Delphi\MailNewsDemos\OverbyteIcsMailRcv.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Descargas\master_12-05-02\vcl-styles-utils-master\Demos\Vcl Styles Utils WinApi Window (Demo App)\CustomSkinedWindow.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Programacion\Projecto\Utiles y Herramientas\Pro\Modulos\Utiles.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\TMSCrypto Demos\VCL\CryptoDemo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Sisco.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\0001Distribuir\QRCodeImage Berlin\dos.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\01Software\02Programacion\Codigos QR y barra\Debenu-DelphiZXingQRCode\TestApp\DelphiZXingQRCodeTestApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Aplicacion\SISCOVENT.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\Descargas\AjpdSoft Generador de codigos de barras_cf\GenerarCodigoBarras.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Project16.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\DragDropDemo\DragDropDemoD104Sydney.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\FilterByCodeDemo\FilterByCodeDemoD104Sydney.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\Office12ViewsDemo\Office12ViewsDemoD104Sydney.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\PhotoStudioDemo\PhotoStudioDemoD104Sydney.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\GroupControlDemo\GroupControlDemoD104Sydney.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\Descargas\atdv_cf\AjpdSoft Test de Velocidad\TestDownload.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Balanza.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv4">
+        <MSBuild Projects="SISCOVENTv4.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv4:Clean">
+        <MSBuild Projects="SISCOVENTv4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv4:Make">
+        <MSBuild Projects="SISCOVENTv4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Electricidad">
+        <MSBuild Projects="..\Electricidad\Electricidad.dproj"/>
+    </Target>
+    <Target Name="Electricidad:Clean">
+        <MSBuild Projects="..\Electricidad\Electricidad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Electricidad:Make">
+        <MSBuild Projects="..\Electricidad\Electricidad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ServerSPA">
+        <MSBuild Projects="Service\ServerSPA.dproj"/>
+    </Target>
+    <Target Name="ServerSPA:Clean">
+        <MSBuild Projects="Service\ServerSPA.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServerSPA:Make">
+        <MSBuild Projects="Service\ServerSPA.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StudioPlayAzul2">
+        <MSBuild Projects="App\StudioPlayAzul2.dproj"/>
+    </Target>
+    <Target Name="StudioPlayAzul2:Clean">
+        <MSBuild Projects="App\StudioPlayAzul2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StudioPlayAzul2:Make">
+        <MSBuild Projects="App\StudioPlayAzul2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GestorDB">
+        <MSBuild Projects="App\GestorDB.dproj"/>
+    </Target>
+    <Target Name="GestorDB:Clean">
+        <MSBuild Projects="App\GestorDB.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GestorDB:Make">
+        <MSBuild Projects="App\GestorDB.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StudioPlayAzul">
+        <MSBuild Projects="Aplicacion Android\StudioPlayAzul.dproj"/>
+    </Target>
+    <Target Name="StudioPlayAzul:Clean">
+        <MSBuild Projects="Aplicacion Android\StudioPlayAzul.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StudioPlayAzul:Make">
+        <MSBuild Projects="Aplicacion Android\StudioPlayAzul.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ImageViewerDemoD26">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\DevExpress_VCL_18.1.6_Full\ExpressEditors Library\Demos\Delphi\ImageViewerDemo\ImageViewerDemoD26.dproj"/>
+    </Target>
+    <Target Name="ImageViewerDemoD26:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\DevExpress_VCL_18.1.6_Full\ExpressEditors Library\Demos\Delphi\ImageViewerDemo\ImageViewerDemoD26.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ImageViewerDemoD26:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\DevExpress_VCL_18.1.6_Full\ExpressEditors Library\Demos\Delphi\ImageViewerDemo\ImageViewerDemoD26.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ShareSheet">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Mobile Snippets\ShareSheet\ShareSheet.dproj"/>
+    </Target>
+    <Target Name="ShareSheet:Clean">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Mobile Snippets\ShareSheet\ShareSheet.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShareSheet:Make">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Mobile Snippets\ShareSheet\ShareSheet.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LowLevel3D">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Multi-Device Samples\User Interface\LowLevel3D\LowLevel3D.dproj"/>
+    </Target>
+    <Target Name="LowLevel3D:Clean">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Multi-Device Samples\User Interface\LowLevel3D\LowLevel3D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LowLevel3D:Make">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Multi-Device Samples\User Interface\LowLevel3D\LowLevel3D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ImageSliderDemo">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\FMXComponents-master\FMXComponents-master\Demo\ImageSliderDemo\ImageSliderDemo.dproj"/>
+    </Target>
+    <Target Name="ImageSliderDemo:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\FMXComponents-master\FMXComponents-master\Demo\ImageSliderDemo\ImageSliderDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ImageSliderDemo:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\FMXComponents-master\FMXComponents-master\Demo\ImageSliderDemo\ImageSliderDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ScrollBoxPlatform">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Multi-Device Samples\User Interface\PlatformScrollBox\ScrollBoxPlatform.dproj"/>
+    </Target>
+    <Target Name="ScrollBoxPlatform:Clean">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Multi-Device Samples\User Interface\PlatformScrollBox\ScrollBoxPlatform.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ScrollBoxPlatform:Make">
+        <MSBuild Projects="D:\Borrar\soft\Demos\Object Pascal\Multi-Device Samples\User Interface\PlatformScrollBox\ScrollBoxPlatform.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project14">
+        <MSBuild Projects="..\no\Numeros Aleatorio\Project14.dproj"/>
+    </Target>
+    <Target Name="Project14:Clean">
+        <MSBuild Projects="..\no\Numeros Aleatorio\Project14.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project14:Make">
+        <MSBuild Projects="..\no\Numeros Aleatorio\Project14.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BuyLicence">
+        <MSBuild Projects="..\no\Compra de Licencias\BuyLicence.dproj"/>
+    </Target>
+    <Target Name="BuyLicence:Clean">
+        <MSBuild Projects="..\no\Compra de Licencias\BuyLicence.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BuyLicence:Make">
+        <MSBuild Projects="..\no\Compra de Licencias\BuyLicence.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Jewely">
+        <MSBuild Projects="..\..\Programacion\Android\Jewel\Jewely.dproj"/>
+    </Target>
+    <Target Name="Jewely:Clean">
+        <MSBuild Projects="..\..\Programacion\Android\Jewel\Jewely.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Jewely:Make">
+        <MSBuild Projects="..\..\Programacion\Android\Jewel\Jewely.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AndroidDangerousPermissions">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\KastriFree-master\KastriFree-master\Demos\AndroidDangerousPermissions\AndroidDangerousPermissions.dproj"/>
+    </Target>
+    <Target Name="AndroidDangerousPermissions:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\KastriFree-master\KastriFree-master\Demos\AndroidDangerousPermissions\AndroidDangerousPermissions.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AndroidDangerousPermissions:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\KastriFree-master\KastriFree-master\Demos\AndroidDangerousPermissions\AndroidDangerousPermissions.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TamanoFichero">
+        <MSBuild Projects="..\..\Tutorial\AjpdSoft\AjpdSoft Tamaño fichero\TamanoFichero.dproj"/>
+    </Target>
+    <Target Name="TamanoFichero:Clean">
+        <MSBuild Projects="..\..\Tutorial\AjpdSoft\AjpdSoft Tamaño fichero\TamanoFichero.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TamanoFichero:Make">
+        <MSBuild Projects="..\..\Tutorial\AjpdSoft\AjpdSoft Tamaño fichero\TamanoFichero.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSndAsync">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv858\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSndAsync.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSndAsync:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv858\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSndAsync.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSndAsync:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv858\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSndAsync.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv858\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv858\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv858\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LaTierraPrometida">
+        <MSBuild Projects="..\Game\CaminoCanaan\App\LaTierraPrometida.dproj"/>
+    </Target>
+    <Target Name="LaTierraPrometida:Clean">
+        <MSBuild Projects="..\Game\CaminoCanaan\App\LaTierraPrometida.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LaTierraPrometida:Make">
+        <MSBuild Projects="..\Game\CaminoCanaan\App\LaTierraPrometida.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsRecv">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv844\Samples\Delphi\SocketDemos\OverbyteIcsRecv.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsRecv:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv844\Samples\Delphi\SocketDemos\OverbyteIcsRecv.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsRecv:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv844\Samples\Delphi\SocketDemos\OverbyteIcsRecv.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailRcv">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv844\Samples\Delphi\MailNewsDemos\OverbyteIcsMailRcv.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailRcv:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv844\Samples\Delphi\MailNewsDemos\OverbyteIcsMailRcv.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailRcv:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Componentes\New\icsv844\Samples\Delphi\MailNewsDemos\OverbyteIcsMailRcv.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CustomSkinedWindow">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Descargas\master_12-05-02\vcl-styles-utils-master\Demos\Vcl Styles Utils WinApi Window (Demo App)\CustomSkinedWindow.dproj"/>
+    </Target>
+    <Target Name="CustomSkinedWindow:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Descargas\master_12-05-02\vcl-styles-utils-master\Demos\Vcl Styles Utils WinApi Window (Demo App)\CustomSkinedWindow.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CustomSkinedWindow:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Todo Embarcadero Rad Studio Delphi 10.3\Descargas\master_12-05-02\vcl-styles-utils-master\Demos\Vcl Styles Utils WinApi Window (Demo App)\CustomSkinedWindow.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Utiles">
+        <MSBuild Projects="..\..\Programacion\Projecto\Utiles y Herramientas\Pro\Modulos\Utiles.dproj"/>
+    </Target>
+    <Target Name="Utiles:Clean">
+        <MSBuild Projects="..\..\Programacion\Projecto\Utiles y Herramientas\Pro\Modulos\Utiles.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Utiles:Make">
+        <MSBuild Projects="..\..\Programacion\Projecto\Utiles y Herramientas\Pro\Modulos\Utiles.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CryptoDemo">
+        <MSBuild Projects="..\TMSCrypto Demos\VCL\CryptoDemo.dproj"/>
+    </Target>
+    <Target Name="CryptoDemo:Clean">
+        <MSBuild Projects="..\TMSCrypto Demos\VCL\CryptoDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CryptoDemo:Make">
+        <MSBuild Projects="..\TMSCrypto Demos\VCL\CryptoDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Sisco">
+        <MSBuild Projects="Sisco.dproj"/>
+    </Target>
+    <Target Name="Sisco:Clean">
+        <MSBuild Projects="Sisco.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Sisco:Make">
+        <MSBuild Projects="Sisco.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dos">
+        <MSBuild Projects="..\..\0001Distribuir\QRCodeImage Berlin\dos.dproj"/>
+    </Target>
+    <Target Name="dos:Clean">
+        <MSBuild Projects="..\..\0001Distribuir\QRCodeImage Berlin\dos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dos:Make">
+        <MSBuild Projects="..\..\0001Distribuir\QRCodeImage Berlin\dos.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiZXingQRCodeTestApp">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Codigos QR y barra\Debenu-DelphiZXingQRCode\TestApp\DelphiZXingQRCodeTestApp.dproj"/>
+    </Target>
+    <Target Name="DelphiZXingQRCodeTestApp:Clean">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Codigos QR y barra\Debenu-DelphiZXingQRCode\TestApp\DelphiZXingQRCodeTestApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiZXingQRCodeTestApp:Make">
+        <MSBuild Projects="D:\03Personal\01Software\02Programacion\Codigos QR y barra\Debenu-DelphiZXingQRCode\TestApp\DelphiZXingQRCodeTestApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SISCOVENT">
+        <MSBuild Projects="Aplicacion\SISCOVENT.dproj"/>
+    </Target>
+    <Target Name="SISCOVENT:Clean">
+        <MSBuild Projects="Aplicacion\SISCOVENT.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENT:Make">
+        <MSBuild Projects="Aplicacion\SISCOVENT.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project10">
+        <MSBuild Projects="..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj"/>
+    </Target>
+    <Target Name="Project10:Clean">
+        <MSBuild Projects="..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project10:Make">
+        <MSBuild Projects="..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GenerarCodigoBarras">
+        <MSBuild Projects="D:\03Personal\Descargas\AjpdSoft Generador de codigos de barras_cf\GenerarCodigoBarras.dproj"/>
+    </Target>
+    <Target Name="GenerarCodigoBarras:Clean">
+        <MSBuild Projects="D:\03Personal\Descargas\AjpdSoft Generador de codigos de barras_cf\GenerarCodigoBarras.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GenerarCodigoBarras:Make">
+        <MSBuild Projects="D:\03Personal\Descargas\AjpdSoft Generador de codigos de barras_cf\GenerarCodigoBarras.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project16">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Project16.dproj"/>
+    </Target>
+    <Target Name="Project16:Clean">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Project16.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project16:Make">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Project16.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DragDropDemoD104Sydney">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\DragDropDemo\DragDropDemoD104Sydney.dproj"/>
+    </Target>
+    <Target Name="DragDropDemoD104Sydney:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\DragDropDemo\DragDropDemoD104Sydney.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DragDropDemoD104Sydney:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\DragDropDemo\DragDropDemoD104Sydney.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FilterByCodeDemoD104Sydney">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\FilterByCodeDemo\FilterByCodeDemoD104Sydney.dproj"/>
+    </Target>
+    <Target Name="FilterByCodeDemoD104Sydney:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\FilterByCodeDemo\FilterByCodeDemoD104Sydney.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FilterByCodeDemoD104Sydney:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\FilterByCodeDemo\FilterByCodeDemoD104Sydney.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Office12ViewsDemoD104Sydney">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\Office12ViewsDemo\Office12ViewsDemoD104Sydney.dproj"/>
+    </Target>
+    <Target Name="Office12ViewsDemoD104Sydney:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\Office12ViewsDemo\Office12ViewsDemoD104Sydney.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Office12ViewsDemoD104Sydney:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\Office12ViewsDemo\Office12ViewsDemoD104Sydney.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PhotoStudioDemoD104Sydney">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\PhotoStudioDemo\PhotoStudioDemoD104Sydney.dproj"/>
+    </Target>
+    <Target Name="PhotoStudioDemoD104Sydney:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\PhotoStudioDemo\PhotoStudioDemoD104Sydney.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PhotoStudioDemoD104Sydney:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\PhotoStudioDemo\PhotoStudioDemoD104Sydney.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GroupControlDemoD104Sydney">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\GroupControlDemo\GroupControlDemoD104Sydney.dproj"/>
+    </Target>
+    <Target Name="GroupControlDemoD104Sydney:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\GroupControlDemo\GroupControlDemoD104Sydney.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GroupControlDemoD104Sydney:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressNavBar\Delphi\GroupControlDemo\GroupControlDemoD104Sydney.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestDownload">
+        <MSBuild Projects="D:\03Personal\Descargas\atdv_cf\AjpdSoft Test de Velocidad\TestDownload.dproj"/>
+    </Target>
+    <Target Name="TestDownload:Clean">
+        <MSBuild Projects="D:\03Personal\Descargas\atdv_cf\AjpdSoft Test de Velocidad\TestDownload.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestDownload:Make">
+        <MSBuild Projects="D:\03Personal\Descargas\atdv_cf\AjpdSoft Test de Velocidad\TestDownload.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Balanza">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Balanza.dproj"/>
+    </Target>
+    <Target Name="Balanza:Clean">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Balanza.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Balanza:Make">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Balanza.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv4;Electricidad;ServerSPA;StudioPlayAzul2;GestorDB;StudioPlayAzul;ImageViewerDemoD26;ShareSheet;LowLevel3D;ImageSliderDemo;ScrollBoxPlatform;Project14;BuyLicence;Jewely;AndroidDangerousPermissions;TamanoFichero;OverbyteIcsMailSndAsync;OverbyteIcsMailSnd;LaTierraPrometida;OverbyteIcsRecv;OverbyteIcsMailRcv;CustomSkinedWindow;Utiles;CryptoDemo;Sisco;dos;DelphiZXingQRCodeTestApp;SISCOVENT;Project10;GenerarCodigoBarras;Project16;DragDropDemoD104Sydney;FilterByCodeDemoD104Sydney;Office12ViewsDemoD104Sydney;PhotoStudioDemoD104Sydney;GroupControlDemoD104Sydney;TestDownload;Balanza"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv4:Clean;Electricidad:Clean;ServerSPA:Clean;StudioPlayAzul2:Clean;GestorDB:Clean;StudioPlayAzul:Clean;ImageViewerDemoD26:Clean;ShareSheet:Clean;LowLevel3D:Clean;ImageSliderDemo:Clean;ScrollBoxPlatform:Clean;Project14:Clean;BuyLicence:Clean;Jewely:Clean;AndroidDangerousPermissions:Clean;TamanoFichero:Clean;OverbyteIcsMailSndAsync:Clean;OverbyteIcsMailSnd:Clean;LaTierraPrometida:Clean;OverbyteIcsRecv:Clean;OverbyteIcsMailRcv:Clean;CustomSkinedWindow:Clean;Utiles:Clean;CryptoDemo:Clean;Sisco:Clean;dos:Clean;DelphiZXingQRCodeTestApp:Clean;SISCOVENT:Clean;Project10:Clean;GenerarCodigoBarras:Clean;Project16:Clean;DragDropDemoD104Sydney:Clean;FilterByCodeDemoD104Sydney:Clean;Office12ViewsDemoD104Sydney:Clean;PhotoStudioDemoD104Sydney:Clean;GroupControlDemoD104Sydney:Clean;TestDownload:Clean;Balanza:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv4:Make;Electricidad:Make;ServerSPA:Make;StudioPlayAzul2:Make;GestorDB:Make;StudioPlayAzul:Make;ImageViewerDemoD26:Make;ShareSheet:Make;LowLevel3D:Make;ImageSliderDemo:Make;ScrollBoxPlatform:Make;Project14:Make;BuyLicence:Make;Jewely:Make;AndroidDangerousPermissions:Make;TamanoFichero:Make;OverbyteIcsMailSndAsync:Make;OverbyteIcsMailSnd:Make;LaTierraPrometida:Make;OverbyteIcsRecv:Make;OverbyteIcsMailRcv:Make;CustomSkinedWindow:Make;Utiles:Make;CryptoDemo:Make;Sisco:Make;dos:Make;DelphiZXingQRCodeTestApp:Make;SISCOVENT:Make;Project10:Make;GenerarCodigoBarras:Make;Project16:Make;DragDropDemoD104Sydney:Make;FilterByCodeDemoD104Sydney:Make;Office12ViewsDemoD104Sydney:Make;PhotoStudioDemoD104Sydney:Make;GroupControlDemoD104Sydney:Make;TestDownload:Make;Balanza:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

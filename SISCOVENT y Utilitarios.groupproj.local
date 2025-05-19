@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/24 16:32:39.000.714,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\ProjectGroup2.groupproj=D:\01Programación\Software\SISCOVENT 2.2\ProjectGroup2.groupproj</Transaction>
+    <Transaction>2020/09/12 11:21:15.000.737,D:\01Programación\Software\SISCOVENT 2.2\ProjectGroup2.groupproj=D:\01Programación\Software\SISCOVENT 2.2\SISCOVENT y Utilitarios.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="D:\01Programación\Software\SISCOVENT 2.2\SISCOVENTv3.dproj"/>
+	</Default.Personality>
+</BorlandProject>
