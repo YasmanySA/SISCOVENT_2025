@@ -1,0 +1,2760 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{09CCC056-B830-48E1-B104-676F78D2FA1C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv4.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxWizardControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxtrmdRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxTileControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxTabbedMDIRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetReportDesignerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetInplaceRichEditRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreDialogsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreConditionalFormattingDialogsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetConditionalFormattingDialogsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxSpellCheckerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinXmas2008BlueRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinWhiteprintRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVS2010RS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013LightRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013DarkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013BlueRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinValentineRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinTheBezierRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinTheAsphaltWorldRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSummer2008RS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinStardustRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSpringTimeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSilverRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSharpRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSharpPlusRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSevenRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSevenClassicRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinsCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinPumpkinRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2019ColorfulRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2016DarkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2016ColorfulRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013WhiteRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013LightGrayRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013DarkGrayRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010SilverRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010BlueRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010BlackRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007SilverRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007PinkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007GreenRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007BlueRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007BlackRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMoneyTwinsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMetropolisRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMetropolisDarkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMcSkinRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLondonLiquidSkyRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLiquidSkyRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLilianRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkiniMaginaryRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinHighContrastRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinGlassOceansRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinFoggyRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDevExpressStyleRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDevExpressDarkStyleRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDarkSideRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDarkRoomRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinCoffeeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinCaramelRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlueRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlueprintRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlackRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxServerModeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRichEditInplaceRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRichEditDocumentModelRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRichEditCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlOpenXMLFormatRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlHtmlFormatRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlDocFormatRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRibbonRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxRibbonCustomizationFormRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSTeeChartRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSRichEditControlLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSPrVwRibbonRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSPrVwAdvRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSLnksRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxSpreadSheetLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxPDFViewerLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxOCLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxMapControlLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxLCLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxGaugeControlLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxFCLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxDBTVLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSdxDBOCLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSDBTeeChartRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPScxVGridLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPScxTLLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPScxSchedulerLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPScxPivotGridLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPScxPCProdRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPScxGridLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPScxExtCommonRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPScxCommonRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPSCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxPDFViewerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxOrgCRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxOrgChartAdvancedCustomizeFormRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxNavBarRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxmdsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxMapControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxHttpIndyRequestRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxGDIPlusRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxGaugeControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxFlowChartRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxFlowChartLayoutsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxFlowChartDesignerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxFlowChartAdvancedCustomizeFormRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxFireDACServerModeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxFireDACEMFRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxEMFRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxDockingRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxDBXServerModeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxdbtrRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxDBOrRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxComnRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxCloudServiceLibraryRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxBarRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxBarExtItemsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxBarExtDBItemsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxBarDBNavRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxADOServerModeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dxADOEMFRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxWizardControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxtrmdRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxTileControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxTabbedMDIRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetReportDesignerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetCoreConditionalFormattingDialogsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetConditionalFormattingDialogsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxSpellCheckerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dcldxSkinsDesignHelperRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\Skin\dcldxSkinsCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxServerModeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxRichEditControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxRibbonRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxRibbonCustomizationFormRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSTeeChartRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSRichEditControlLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSPrVwRibbonRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSPrVwAdvRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSLnksRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxSpreadSheetLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxPDFViewerLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxOCLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxMapControlLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxLCLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxGaugeControlLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxFCLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxDBTVLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxDBOCLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSDBTeeChartRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPScxVGridLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPScxTLLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPScxSchedulerLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPScxPivotGridLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPScxGridLnkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPScxExtCommonRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPScxCommonRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPSCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxPDFViewerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxOrgCRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxOrgChartAdvancedCustomizeFormRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxNavBarRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxmdsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxMapControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxIconLibraryRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxHttpIndyRequestRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxGaugeControlRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartDesignerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartAdvancedCustomizeFormRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxFireDACServerModeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxFireDACEMFRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxEMFRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxDockingRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxDBXServerModeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxdbtrRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxDBOrRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxCoreRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxCloudServiceLibraryRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxBarRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxBarExtItemsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxBarExtDBItemsRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxBarDBNavRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxADOServerModeRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dcldxADOEMFRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxVerticalGridRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxTreeListRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxTreeListdxBarPopupMenuRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerWebServiceStorageRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerTreeBrowserRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerRibbonStyleEventEditorRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerGridRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridOLAPRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridChartRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxPageControldxBarPopupMenuRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxLibraryRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxGridWizardRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxGridRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\dclcxEditorFieldLinkRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxVerticalGridRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxTreeListRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxTreeListdxBarPopupMenuRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxSchedulerWebServiceStorageRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxSchedulerTreeBrowserRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxSchedulerRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxSchedulerRibbonStyleEventEditorRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxSchedulerGridRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxPivotGridRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxPivotGridOLAPRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxPivotGridChartRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxPageControldxBarPopupMenuRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxLibraryRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxGridRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxFireDACAdaptersRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxExportRS27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\DevExpress\Full Source\Package\cxADOAdaptersRS27.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv4">
+        <MSBuild Projects="SISCOVENTv4.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv4:Clean">
+        <MSBuild Projects="SISCOVENTv4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv4:Make">
+        <MSBuild Projects="SISCOVENTv4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxWizardControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxWizardControlRS27.dproj"/>
+    </Target>
+    <Target Name="dxWizardControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxWizardControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxWizardControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxWizardControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxtrmdRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxtrmdRS27.dproj"/>
+    </Target>
+    <Target Name="dxtrmdRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxtrmdRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxtrmdRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxtrmdRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxTileControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxTileControlRS27.dproj"/>
+    </Target>
+    <Target Name="dxTileControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxTileControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxTileControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxTileControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxTabbedMDIRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxTabbedMDIRS27.dproj"/>
+    </Target>
+    <Target Name="dxTabbedMDIRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxTabbedMDIRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxTabbedMDIRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxTabbedMDIRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSpreadSheetRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetRS27.dproj"/>
+    </Target>
+    <Target Name="dxSpreadSheetRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSpreadSheetRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSpreadSheetReportDesignerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetReportDesignerRS27.dproj"/>
+    </Target>
+    <Target Name="dxSpreadSheetReportDesignerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetReportDesignerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSpreadSheetReportDesignerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetReportDesignerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSpreadSheetInplaceRichEditRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetInplaceRichEditRS27.dproj"/>
+    </Target>
+    <Target Name="dxSpreadSheetInplaceRichEditRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetInplaceRichEditRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSpreadSheetInplaceRichEditRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetInplaceRichEditRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreDialogsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreDialogsRS27.dproj"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreDialogsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreDialogsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreDialogsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreDialogsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreConditionalFormattingDialogsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreConditionalFormattingDialogsRS27.dproj"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreConditionalFormattingDialogsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreConditionalFormattingDialogsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSpreadSheetCoreConditionalFormattingDialogsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetCoreConditionalFormattingDialogsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSpreadSheetConditionalFormattingDialogsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetConditionalFormattingDialogsRS27.dproj"/>
+    </Target>
+    <Target Name="dxSpreadSheetConditionalFormattingDialogsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetConditionalFormattingDialogsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSpreadSheetConditionalFormattingDialogsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpreadSheetConditionalFormattingDialogsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSpellCheckerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpellCheckerRS27.dproj"/>
+    </Target>
+    <Target Name="dxSpellCheckerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpellCheckerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSpellCheckerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxSpellCheckerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinXmas2008BlueRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinXmas2008BlueRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinXmas2008BlueRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinXmas2008BlueRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinXmas2008BlueRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinXmas2008BlueRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinWhiteprintRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinWhiteprintRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinWhiteprintRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinWhiteprintRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinWhiteprintRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinWhiteprintRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinVS2010RS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVS2010RS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinVS2010RS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVS2010RS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinVS2010RS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVS2010RS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013LightRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013LightRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013LightRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013LightRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013LightRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013LightRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013DarkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013DarkRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013DarkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013DarkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013DarkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013DarkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013BlueRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013BlueRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013BlueRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013BlueRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinVisualStudio2013BlueRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinVisualStudio2013BlueRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinValentineRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinValentineRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinValentineRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinValentineRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinValentineRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinValentineRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinTheBezierRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinTheBezierRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinTheBezierRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinTheBezierRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinTheBezierRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinTheBezierRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinTheAsphaltWorldRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinTheAsphaltWorldRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinTheAsphaltWorldRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinTheAsphaltWorldRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinTheAsphaltWorldRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinTheAsphaltWorldRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinSummer2008RS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSummer2008RS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinSummer2008RS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSummer2008RS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinSummer2008RS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSummer2008RS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinStardustRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinStardustRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinStardustRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinStardustRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinStardustRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinStardustRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinSpringTimeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSpringTimeRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinSpringTimeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSpringTimeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinSpringTimeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSpringTimeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinSilverRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSilverRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinSilverRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSilverRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinSilverRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSilverRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinSharpRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSharpRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinSharpRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSharpRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinSharpRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSharpRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinSharpPlusRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSharpPlusRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinSharpPlusRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSharpPlusRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinSharpPlusRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSharpPlusRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinSevenRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSevenRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinSevenRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSevenRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinSevenRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSevenRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinSevenClassicRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSevenClassicRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinSevenClassicRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSevenClassicRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinSevenClassicRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinSevenClassicRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinsCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinsCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinsCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinsCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinsCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinsCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinPumpkinRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinPumpkinRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinPumpkinRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinPumpkinRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinPumpkinRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinPumpkinRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2019ColorfulRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2019ColorfulRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2019ColorfulRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2019ColorfulRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2019ColorfulRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2019ColorfulRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2016DarkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2016DarkRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2016DarkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2016DarkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2016DarkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2016DarkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2016ColorfulRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2016ColorfulRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2016ColorfulRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2016ColorfulRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2016ColorfulRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2016ColorfulRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2013WhiteRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013WhiteRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2013WhiteRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013WhiteRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2013WhiteRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013WhiteRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2013LightGrayRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013LightGrayRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2013LightGrayRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013LightGrayRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2013LightGrayRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013LightGrayRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2013DarkGrayRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013DarkGrayRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2013DarkGrayRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013DarkGrayRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2013DarkGrayRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2013DarkGrayRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2010SilverRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010SilverRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2010SilverRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010SilverRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2010SilverRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010SilverRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2010BlueRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010BlueRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2010BlueRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010BlueRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2010BlueRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010BlueRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2010BlackRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010BlackRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2010BlackRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010BlackRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2010BlackRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2010BlackRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2007SilverRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007SilverRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2007SilverRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007SilverRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2007SilverRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007SilverRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2007PinkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007PinkRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2007PinkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007PinkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2007PinkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007PinkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2007GreenRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007GreenRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2007GreenRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007GreenRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2007GreenRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007GreenRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2007BlueRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007BlueRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2007BlueRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007BlueRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2007BlueRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007BlueRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinOffice2007BlackRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007BlackRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinOffice2007BlackRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007BlackRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinOffice2007BlackRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinOffice2007BlackRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinMoneyTwinsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMoneyTwinsRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinMoneyTwinsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMoneyTwinsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinMoneyTwinsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMoneyTwinsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinMetropolisRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMetropolisRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinMetropolisRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMetropolisRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinMetropolisRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMetropolisRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinMetropolisDarkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMetropolisDarkRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinMetropolisDarkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMetropolisDarkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinMetropolisDarkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMetropolisDarkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinMcSkinRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMcSkinRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinMcSkinRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMcSkinRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinMcSkinRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinMcSkinRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinLondonLiquidSkyRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLondonLiquidSkyRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinLondonLiquidSkyRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLondonLiquidSkyRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinLondonLiquidSkyRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLondonLiquidSkyRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinLiquidSkyRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLiquidSkyRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinLiquidSkyRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLiquidSkyRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinLiquidSkyRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLiquidSkyRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinLilianRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLilianRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinLilianRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLilianRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinLilianRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinLilianRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkiniMaginaryRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkiniMaginaryRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkiniMaginaryRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkiniMaginaryRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkiniMaginaryRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkiniMaginaryRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinHighContrastRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinHighContrastRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinHighContrastRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinHighContrastRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinHighContrastRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinHighContrastRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinGlassOceansRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinGlassOceansRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinGlassOceansRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinGlassOceansRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinGlassOceansRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinGlassOceansRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinFoggyRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinFoggyRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinFoggyRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinFoggyRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinFoggyRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinFoggyRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinDevExpressStyleRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDevExpressStyleRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinDevExpressStyleRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDevExpressStyleRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinDevExpressStyleRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDevExpressStyleRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinDevExpressDarkStyleRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDevExpressDarkStyleRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinDevExpressDarkStyleRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDevExpressDarkStyleRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinDevExpressDarkStyleRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDevExpressDarkStyleRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinDarkSideRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDarkSideRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinDarkSideRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDarkSideRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinDarkSideRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDarkSideRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinDarkRoomRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDarkRoomRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinDarkRoomRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDarkRoomRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinDarkRoomRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinDarkRoomRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinCoffeeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinCoffeeRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinCoffeeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinCoffeeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinCoffeeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinCoffeeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinCaramelRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinCaramelRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinCaramelRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinCaramelRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinCaramelRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinCaramelRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinBlueRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlueRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinBlueRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlueRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinBlueRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlueRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinBlueprintRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlueprintRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinBlueprintRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlueprintRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinBlueprintRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlueprintRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxSkinBlackRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlackRS27.dproj"/>
+    </Target>
+    <Target Name="dxSkinBlackRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlackRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxSkinBlackRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dxSkinBlackRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxServerModeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxServerModeRS27.dproj"/>
+    </Target>
+    <Target Name="dxServerModeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxServerModeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxServerModeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxServerModeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRichEditInplaceRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditInplaceRS27.dproj"/>
+    </Target>
+    <Target Name="dxRichEditInplaceRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditInplaceRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRichEditInplaceRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditInplaceRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRichEditDocumentModelRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditDocumentModelRS27.dproj"/>
+    </Target>
+    <Target Name="dxRichEditDocumentModelRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditDocumentModelRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRichEditDocumentModelRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditDocumentModelRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRichEditCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dxRichEditCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRichEditCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRichEditControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlRS27.dproj"/>
+    </Target>
+    <Target Name="dxRichEditControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRichEditControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRichEditControlOpenXMLFormatRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlOpenXMLFormatRS27.dproj"/>
+    </Target>
+    <Target Name="dxRichEditControlOpenXMLFormatRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlOpenXMLFormatRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRichEditControlOpenXMLFormatRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlOpenXMLFormatRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRichEditControlHtmlFormatRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlHtmlFormatRS27.dproj"/>
+    </Target>
+    <Target Name="dxRichEditControlHtmlFormatRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlHtmlFormatRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRichEditControlHtmlFormatRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlHtmlFormatRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRichEditControlDocFormatRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlDocFormatRS27.dproj"/>
+    </Target>
+    <Target Name="dxRichEditControlDocFormatRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlDocFormatRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRichEditControlDocFormatRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlDocFormatRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRichEditControlCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dxRichEditControlCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRichEditControlCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRichEditControlCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRibbonRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRibbonRS27.dproj"/>
+    </Target>
+    <Target Name="dxRibbonRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRibbonRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRibbonRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRibbonRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxRibbonCustomizationFormRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRibbonCustomizationFormRS27.dproj"/>
+    </Target>
+    <Target Name="dxRibbonCustomizationFormRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRibbonCustomizationFormRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxRibbonCustomizationFormRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxRibbonCustomizationFormRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSTeeChartRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSTeeChartRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSTeeChartRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSTeeChartRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSTeeChartRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSTeeChartRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSRichEditControlLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSRichEditControlLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSRichEditControlLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSRichEditControlLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSRichEditControlLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSRichEditControlLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSPrVwRibbonRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSPrVwRibbonRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSPrVwRibbonRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSPrVwRibbonRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSPrVwRibbonRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSPrVwRibbonRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSPrVwAdvRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSPrVwAdvRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSPrVwAdvRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSPrVwAdvRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSPrVwAdvRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSPrVwAdvRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSLnksRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSLnksRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSLnksRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSLnksRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSLnksRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSLnksRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxSpreadSheetLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxSpreadSheetLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxSpreadSheetLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxSpreadSheetLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxSpreadSheetLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxSpreadSheetLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxPDFViewerLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxPDFViewerLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxPDFViewerLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxPDFViewerLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxPDFViewerLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxPDFViewerLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxOCLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxOCLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxOCLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxOCLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxOCLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxOCLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxMapControlLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxMapControlLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxMapControlLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxMapControlLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxMapControlLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxMapControlLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxLCLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxLCLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxLCLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxLCLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxLCLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxLCLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxGaugeControlLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxGaugeControlLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxGaugeControlLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxGaugeControlLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxGaugeControlLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxGaugeControlLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxFCLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxFCLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxFCLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxFCLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxFCLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxFCLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxDBTVLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxDBTVLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxDBTVLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxDBTVLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxDBTVLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxDBTVLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSdxDBOCLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxDBOCLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSdxDBOCLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxDBOCLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSdxDBOCLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSdxDBOCLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSDBTeeChartRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSDBTeeChartRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSDBTeeChartRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSDBTeeChartRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSDBTeeChartRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSDBTeeChartRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPScxVGridLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxVGridLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPScxVGridLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxVGridLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPScxVGridLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxVGridLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPScxTLLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxTLLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPScxTLLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxTLLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPScxTLLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxTLLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPScxSchedulerLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxSchedulerLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPScxSchedulerLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxSchedulerLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPScxSchedulerLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxSchedulerLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPScxPivotGridLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxPivotGridLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPScxPivotGridLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxPivotGridLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPScxPivotGridLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxPivotGridLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPScxPCProdRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxPCProdRS27.dproj"/>
+    </Target>
+    <Target Name="dxPScxPCProdRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxPCProdRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPScxPCProdRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxPCProdRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPScxGridLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxGridLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dxPScxGridLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxGridLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPScxGridLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxGridLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPScxExtCommonRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxExtCommonRS27.dproj"/>
+    </Target>
+    <Target Name="dxPScxExtCommonRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxExtCommonRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPScxExtCommonRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxExtCommonRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPScxCommonRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxCommonRS27.dproj"/>
+    </Target>
+    <Target Name="dxPScxCommonRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxCommonRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPScxCommonRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPScxCommonRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPSCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dxPSCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPSCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPSCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxPDFViewerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPDFViewerRS27.dproj"/>
+    </Target>
+    <Target Name="dxPDFViewerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPDFViewerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxPDFViewerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxPDFViewerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxOrgCRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxOrgCRS27.dproj"/>
+    </Target>
+    <Target Name="dxOrgCRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxOrgCRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxOrgCRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxOrgCRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxOrgChartAdvancedCustomizeFormRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxOrgChartAdvancedCustomizeFormRS27.dproj"/>
+    </Target>
+    <Target Name="dxOrgChartAdvancedCustomizeFormRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxOrgChartAdvancedCustomizeFormRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxOrgChartAdvancedCustomizeFormRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxOrgChartAdvancedCustomizeFormRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxNavBarRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxNavBarRS27.dproj"/>
+    </Target>
+    <Target Name="dxNavBarRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxNavBarRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxNavBarRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxNavBarRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxmdsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxmdsRS27.dproj"/>
+    </Target>
+    <Target Name="dxmdsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxmdsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxmdsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxmdsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxMapControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxMapControlRS27.dproj"/>
+    </Target>
+    <Target Name="dxMapControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxMapControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxMapControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxMapControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxHttpIndyRequestRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxHttpIndyRequestRS27.dproj"/>
+    </Target>
+    <Target Name="dxHttpIndyRequestRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxHttpIndyRequestRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxHttpIndyRequestRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxHttpIndyRequestRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxGDIPlusRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxGDIPlusRS27.dproj"/>
+    </Target>
+    <Target Name="dxGDIPlusRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxGDIPlusRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxGDIPlusRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxGDIPlusRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxGaugeControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxGaugeControlRS27.dproj"/>
+    </Target>
+    <Target Name="dxGaugeControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxGaugeControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxGaugeControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxGaugeControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxFlowChartRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartRS27.dproj"/>
+    </Target>
+    <Target Name="dxFlowChartRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxFlowChartRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxFlowChartLayoutsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartLayoutsRS27.dproj"/>
+    </Target>
+    <Target Name="dxFlowChartLayoutsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartLayoutsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxFlowChartLayoutsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartLayoutsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxFlowChartDesignerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartDesignerRS27.dproj"/>
+    </Target>
+    <Target Name="dxFlowChartDesignerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartDesignerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxFlowChartDesignerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartDesignerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxFlowChartAdvancedCustomizeFormRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartAdvancedCustomizeFormRS27.dproj"/>
+    </Target>
+    <Target Name="dxFlowChartAdvancedCustomizeFormRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartAdvancedCustomizeFormRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxFlowChartAdvancedCustomizeFormRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFlowChartAdvancedCustomizeFormRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxFireDACServerModeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFireDACServerModeRS27.dproj"/>
+    </Target>
+    <Target Name="dxFireDACServerModeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFireDACServerModeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxFireDACServerModeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFireDACServerModeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxFireDACEMFRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFireDACEMFRS27.dproj"/>
+    </Target>
+    <Target Name="dxFireDACEMFRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFireDACEMFRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxFireDACEMFRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxFireDACEMFRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxEMFRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxEMFRS27.dproj"/>
+    </Target>
+    <Target Name="dxEMFRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxEMFRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxEMFRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxEMFRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxDockingRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDockingRS27.dproj"/>
+    </Target>
+    <Target Name="dxDockingRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDockingRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxDockingRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDockingRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxDBXServerModeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDBXServerModeRS27.dproj"/>
+    </Target>
+    <Target Name="dxDBXServerModeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDBXServerModeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxDBXServerModeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDBXServerModeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxdbtrRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxdbtrRS27.dproj"/>
+    </Target>
+    <Target Name="dxdbtrRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxdbtrRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxdbtrRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxdbtrRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxDBOrRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDBOrRS27.dproj"/>
+    </Target>
+    <Target Name="dxDBOrRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDBOrRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxDBOrRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxDBOrRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dxCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxComnRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxComnRS27.dproj"/>
+    </Target>
+    <Target Name="dxComnRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxComnRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxComnRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxComnRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxCloudServiceLibraryRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxCloudServiceLibraryRS27.dproj"/>
+    </Target>
+    <Target Name="dxCloudServiceLibraryRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxCloudServiceLibraryRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxCloudServiceLibraryRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxCloudServiceLibraryRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxBarRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarRS27.dproj"/>
+    </Target>
+    <Target Name="dxBarRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxBarRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxBarExtItemsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarExtItemsRS27.dproj"/>
+    </Target>
+    <Target Name="dxBarExtItemsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarExtItemsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxBarExtItemsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarExtItemsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxBarExtDBItemsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarExtDBItemsRS27.dproj"/>
+    </Target>
+    <Target Name="dxBarExtDBItemsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarExtDBItemsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxBarExtDBItemsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarExtDBItemsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxBarDBNavRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarDBNavRS27.dproj"/>
+    </Target>
+    <Target Name="dxBarDBNavRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarDBNavRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxBarDBNavRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxBarDBNavRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxADOServerModeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxADOServerModeRS27.dproj"/>
+    </Target>
+    <Target Name="dxADOServerModeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxADOServerModeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxADOServerModeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxADOServerModeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dxADOEMFRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxADOEMFRS27.dproj"/>
+    </Target>
+    <Target Name="dxADOEMFRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxADOEMFRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dxADOEMFRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dxADOEMFRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxWizardControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxWizardControlRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxWizardControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxWizardControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxWizardControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxWizardControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxtrmdRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxtrmdRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxtrmdRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxtrmdRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxtrmdRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxtrmdRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxTileControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxTileControlRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxTileControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxTileControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxTileControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxTileControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxTabbedMDIRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxTabbedMDIRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxTabbedMDIRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxTabbedMDIRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxTabbedMDIRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxTabbedMDIRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetReportDesignerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetReportDesignerRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetReportDesignerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetReportDesignerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetReportDesignerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetReportDesignerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetCoreConditionalFormattingDialogsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetCoreConditionalFormattingDialogsRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetCoreConditionalFormattingDialogsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetCoreConditionalFormattingDialogsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetCoreConditionalFormattingDialogsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetCoreConditionalFormattingDialogsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetConditionalFormattingDialogsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetConditionalFormattingDialogsRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetConditionalFormattingDialogsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetConditionalFormattingDialogsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxSpreadSheetConditionalFormattingDialogsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpreadSheetConditionalFormattingDialogsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxSpellCheckerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpellCheckerRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxSpellCheckerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpellCheckerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxSpellCheckerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxSpellCheckerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxSkinsDesignHelperRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dcldxSkinsDesignHelperRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxSkinsDesignHelperRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dcldxSkinsDesignHelperRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxSkinsDesignHelperRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dcldxSkinsDesignHelperRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxSkinsCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dcldxSkinsCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxSkinsCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dcldxSkinsCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxSkinsCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\Skin\dcldxSkinsCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxServerModeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxServerModeRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxServerModeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxServerModeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxServerModeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxServerModeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxRichEditControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRichEditControlRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxRichEditControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRichEditControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxRichEditControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRichEditControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxRibbonRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRibbonRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxRibbonRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRibbonRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxRibbonRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRibbonRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxRibbonCustomizationFormRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRibbonCustomizationFormRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxRibbonCustomizationFormRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRibbonCustomizationFormRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxRibbonCustomizationFormRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxRibbonCustomizationFormRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSTeeChartRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSTeeChartRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSTeeChartRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSTeeChartRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSTeeChartRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSTeeChartRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSRichEditControlLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSRichEditControlLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSRichEditControlLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSRichEditControlLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSRichEditControlLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSRichEditControlLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSPrVwRibbonRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSPrVwRibbonRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSPrVwRibbonRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSPrVwRibbonRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSPrVwRibbonRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSPrVwRibbonRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSPrVwAdvRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSPrVwAdvRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSPrVwAdvRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSPrVwAdvRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSPrVwAdvRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSPrVwAdvRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSLnksRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSLnksRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSLnksRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSLnksRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSLnksRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSLnksRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxSpreadSheetLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxSpreadSheetLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxSpreadSheetLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxSpreadSheetLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxSpreadSheetLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxSpreadSheetLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxPDFViewerLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxPDFViewerLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxPDFViewerLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxPDFViewerLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxPDFViewerLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxPDFViewerLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxOCLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxOCLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxOCLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxOCLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxOCLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxOCLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxMapControlLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxMapControlLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxMapControlLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxMapControlLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxMapControlLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxMapControlLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxLCLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxLCLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxLCLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxLCLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxLCLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxLCLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxGaugeControlLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxGaugeControlLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxGaugeControlLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxGaugeControlLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxGaugeControlLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxGaugeControlLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxFCLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxFCLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxFCLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxFCLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxFCLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxFCLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxDBTVLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxDBTVLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxDBTVLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxDBTVLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxDBTVLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxDBTVLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSdxDBOCLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxDBOCLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSdxDBOCLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxDBOCLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSdxDBOCLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSdxDBOCLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSDBTeeChartRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSDBTeeChartRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSDBTeeChartRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSDBTeeChartRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSDBTeeChartRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSDBTeeChartRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPScxVGridLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxVGridLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPScxVGridLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxVGridLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPScxVGridLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxVGridLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPScxTLLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxTLLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPScxTLLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxTLLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPScxTLLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxTLLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPScxSchedulerLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxSchedulerLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPScxSchedulerLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxSchedulerLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPScxSchedulerLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxSchedulerLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPScxPivotGridLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxPivotGridLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPScxPivotGridLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxPivotGridLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPScxPivotGridLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxPivotGridLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPScxGridLnkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxGridLnkRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPScxGridLnkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxGridLnkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPScxGridLnkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxGridLnkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPScxExtCommonRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxExtCommonRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPScxExtCommonRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxExtCommonRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPScxExtCommonRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxExtCommonRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPScxCommonRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxCommonRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPScxCommonRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxCommonRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPScxCommonRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPScxCommonRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPSCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPSCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPSCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPSCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxPDFViewerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPDFViewerRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxPDFViewerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPDFViewerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxPDFViewerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxPDFViewerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxOrgCRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxOrgCRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxOrgCRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxOrgCRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxOrgCRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxOrgCRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxOrgChartAdvancedCustomizeFormRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxOrgChartAdvancedCustomizeFormRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxOrgChartAdvancedCustomizeFormRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxOrgChartAdvancedCustomizeFormRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxOrgChartAdvancedCustomizeFormRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxOrgChartAdvancedCustomizeFormRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxNavBarRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxNavBarRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxNavBarRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxNavBarRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxNavBarRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxNavBarRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxmdsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxmdsRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxmdsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxmdsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxmdsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxmdsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxMapControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxMapControlRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxMapControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxMapControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxMapControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxMapControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxIconLibraryRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxIconLibraryRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxIconLibraryRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxIconLibraryRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxIconLibraryRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxIconLibraryRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxHttpIndyRequestRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxHttpIndyRequestRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxHttpIndyRequestRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxHttpIndyRequestRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxHttpIndyRequestRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxHttpIndyRequestRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxGaugeControlRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxGaugeControlRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxGaugeControlRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxGaugeControlRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxGaugeControlRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxGaugeControlRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxFlowChartRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxFlowChartRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxFlowChartRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxFlowChartDesignerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartDesignerRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxFlowChartDesignerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartDesignerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxFlowChartDesignerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartDesignerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxFlowChartAdvancedCustomizeFormRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartAdvancedCustomizeFormRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxFlowChartAdvancedCustomizeFormRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartAdvancedCustomizeFormRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxFlowChartAdvancedCustomizeFormRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFlowChartAdvancedCustomizeFormRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxFireDACServerModeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFireDACServerModeRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxFireDACServerModeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFireDACServerModeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxFireDACServerModeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFireDACServerModeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxFireDACEMFRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFireDACEMFRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxFireDACEMFRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFireDACEMFRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxFireDACEMFRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxFireDACEMFRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxEMFRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxEMFRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxEMFRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxEMFRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxEMFRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxEMFRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxDockingRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDockingRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxDockingRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDockingRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxDockingRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDockingRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxDBXServerModeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDBXServerModeRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxDBXServerModeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDBXServerModeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxDBXServerModeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDBXServerModeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxdbtrRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxdbtrRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxdbtrRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxdbtrRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxdbtrRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxdbtrRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxDBOrRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDBOrRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxDBOrRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDBOrRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxDBOrRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxDBOrRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxCoreRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxCoreRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxCoreRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxCoreRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxCoreRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxCoreRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxCloudServiceLibraryRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxCloudServiceLibraryRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxCloudServiceLibraryRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxCloudServiceLibraryRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxCloudServiceLibraryRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxCloudServiceLibraryRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxBarRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxBarRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxBarRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxBarExtItemsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarExtItemsRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxBarExtItemsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarExtItemsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxBarExtItemsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarExtItemsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxBarExtDBItemsRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarExtDBItemsRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxBarExtDBItemsRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarExtDBItemsRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxBarExtDBItemsRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarExtDBItemsRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxBarDBNavRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarDBNavRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxBarDBNavRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarDBNavRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxBarDBNavRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxBarDBNavRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxADOServerModeRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxADOServerModeRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxADOServerModeRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxADOServerModeRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxADOServerModeRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxADOServerModeRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dcldxADOEMFRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxADOEMFRS27.dproj"/>
+    </Target>
+    <Target Name="dcldxADOEMFRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxADOEMFRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dcldxADOEMFRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dcldxADOEMFRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxVerticalGridRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxVerticalGridRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxVerticalGridRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxVerticalGridRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxVerticalGridRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxVerticalGridRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxTreeListRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxTreeListRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxTreeListRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxTreeListRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxTreeListRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxTreeListRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxTreeListdxBarPopupMenuRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxTreeListdxBarPopupMenuRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxTreeListdxBarPopupMenuRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxTreeListdxBarPopupMenuRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxTreeListdxBarPopupMenuRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxTreeListdxBarPopupMenuRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxSchedulerWebServiceStorageRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerWebServiceStorageRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxSchedulerWebServiceStorageRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerWebServiceStorageRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxSchedulerWebServiceStorageRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerWebServiceStorageRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxSchedulerTreeBrowserRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerTreeBrowserRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxSchedulerTreeBrowserRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerTreeBrowserRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxSchedulerTreeBrowserRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerTreeBrowserRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxSchedulerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxSchedulerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxSchedulerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxSchedulerRibbonStyleEventEditorRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerRibbonStyleEventEditorRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxSchedulerRibbonStyleEventEditorRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerRibbonStyleEventEditorRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxSchedulerRibbonStyleEventEditorRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerRibbonStyleEventEditorRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxSchedulerGridRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerGridRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxSchedulerGridRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerGridRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxSchedulerGridRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxSchedulerGridRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxPivotGridRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxPivotGridRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxPivotGridRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxPivotGridOLAPRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridOLAPRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxPivotGridOLAPRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridOLAPRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxPivotGridOLAPRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridOLAPRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxPivotGridChartRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridChartRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxPivotGridChartRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridChartRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxPivotGridChartRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPivotGridChartRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxPageControldxBarPopupMenuRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPageControldxBarPopupMenuRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxPageControldxBarPopupMenuRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPageControldxBarPopupMenuRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxPageControldxBarPopupMenuRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxPageControldxBarPopupMenuRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxLibraryRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxLibraryRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxLibraryRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxLibraryRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxLibraryRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxLibraryRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxGridWizardRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxGridWizardRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxGridWizardRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxGridWizardRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxGridWizardRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxGridWizardRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxGridRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxGridRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxGridRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxGridRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxGridRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxGridRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclcxEditorFieldLinkRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxEditorFieldLinkRS27.dproj"/>
+    </Target>
+    <Target Name="dclcxEditorFieldLinkRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxEditorFieldLinkRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclcxEditorFieldLinkRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\dclcxEditorFieldLinkRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxVerticalGridRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxVerticalGridRS27.dproj"/>
+    </Target>
+    <Target Name="cxVerticalGridRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxVerticalGridRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxVerticalGridRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxVerticalGridRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxTreeListRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxTreeListRS27.dproj"/>
+    </Target>
+    <Target Name="cxTreeListRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxTreeListRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxTreeListRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxTreeListRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxTreeListdxBarPopupMenuRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxTreeListdxBarPopupMenuRS27.dproj"/>
+    </Target>
+    <Target Name="cxTreeListdxBarPopupMenuRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxTreeListdxBarPopupMenuRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxTreeListdxBarPopupMenuRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxTreeListdxBarPopupMenuRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxSchedulerWebServiceStorageRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerWebServiceStorageRS27.dproj"/>
+    </Target>
+    <Target Name="cxSchedulerWebServiceStorageRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerWebServiceStorageRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxSchedulerWebServiceStorageRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerWebServiceStorageRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxSchedulerTreeBrowserRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerTreeBrowserRS27.dproj"/>
+    </Target>
+    <Target Name="cxSchedulerTreeBrowserRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerTreeBrowserRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxSchedulerTreeBrowserRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerTreeBrowserRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxSchedulerRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerRS27.dproj"/>
+    </Target>
+    <Target Name="cxSchedulerRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxSchedulerRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxSchedulerRibbonStyleEventEditorRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerRibbonStyleEventEditorRS27.dproj"/>
+    </Target>
+    <Target Name="cxSchedulerRibbonStyleEventEditorRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerRibbonStyleEventEditorRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxSchedulerRibbonStyleEventEditorRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerRibbonStyleEventEditorRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxSchedulerGridRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerGridRS27.dproj"/>
+    </Target>
+    <Target Name="cxSchedulerGridRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerGridRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxSchedulerGridRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxSchedulerGridRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxPivotGridRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridRS27.dproj"/>
+    </Target>
+    <Target Name="cxPivotGridRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxPivotGridRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxPivotGridOLAPRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridOLAPRS27.dproj"/>
+    </Target>
+    <Target Name="cxPivotGridOLAPRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridOLAPRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxPivotGridOLAPRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridOLAPRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxPivotGridChartRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridChartRS27.dproj"/>
+    </Target>
+    <Target Name="cxPivotGridChartRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridChartRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxPivotGridChartRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPivotGridChartRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxPageControldxBarPopupMenuRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPageControldxBarPopupMenuRS27.dproj"/>
+    </Target>
+    <Target Name="cxPageControldxBarPopupMenuRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPageControldxBarPopupMenuRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxPageControldxBarPopupMenuRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxPageControldxBarPopupMenuRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxLibraryRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxLibraryRS27.dproj"/>
+    </Target>
+    <Target Name="cxLibraryRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxLibraryRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxLibraryRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxLibraryRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxGridRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxGridRS27.dproj"/>
+    </Target>
+    <Target Name="cxGridRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxGridRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxGridRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxGridRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxFireDACAdaptersRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxFireDACAdaptersRS27.dproj"/>
+    </Target>
+    <Target Name="cxFireDACAdaptersRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxFireDACAdaptersRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxFireDACAdaptersRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxFireDACAdaptersRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxExportRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxExportRS27.dproj"/>
+    </Target>
+    <Target Name="cxExportRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxExportRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxExportRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxExportRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="cxADOAdaptersRS27">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxADOAdaptersRS27.dproj"/>
+    </Target>
+    <Target Name="cxADOAdaptersRS27:Clean">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxADOAdaptersRS27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cxADOAdaptersRS27:Make">
+        <MSBuild Projects="C:\delphi\DevExpress\Full Source\Package\cxADOAdaptersRS27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv4;dxWizardControlRS27;dxtrmdRS27;dxTileControlRS27;dxTabbedMDIRS27;dxSpreadSheetRS27;dxSpreadSheetReportDesignerRS27;dxSpreadSheetInplaceRichEditRS27;dxSpreadSheetCoreRS27;dxSpreadSheetCoreDialogsRS27;dxSpreadSheetCoreConditionalFormattingDialogsRS27;dxSpreadSheetConditionalFormattingDialogsRS27;dxSpellCheckerRS27;dxSkinXmas2008BlueRS27;dxSkinWhiteprintRS27;dxSkinVS2010RS27;dxSkinVisualStudio2013LightRS27;dxSkinVisualStudio2013DarkRS27;dxSkinVisualStudio2013BlueRS27;dxSkinValentineRS27;dxSkinTheBezierRS27;dxSkinTheAsphaltWorldRS27;dxSkinSummer2008RS27;dxSkinStardustRS27;dxSkinSpringTimeRS27;dxSkinSilverRS27;dxSkinSharpRS27;dxSkinSharpPlusRS27;dxSkinSevenRS27;dxSkinSevenClassicRS27;dxSkinsCoreRS27;dxSkinPumpkinRS27;dxSkinOffice2019ColorfulRS27;dxSkinOffice2016DarkRS27;dxSkinOffice2016ColorfulRS27;dxSkinOffice2013WhiteRS27;dxSkinOffice2013LightGrayRS27;dxSkinOffice2013DarkGrayRS27;dxSkinOffice2010SilverRS27;dxSkinOffice2010BlueRS27;dxSkinOffice2010BlackRS27;dxSkinOffice2007SilverRS27;dxSkinOffice2007PinkRS27;dxSkinOffice2007GreenRS27;dxSkinOffice2007BlueRS27;dxSkinOffice2007BlackRS27;dxSkinMoneyTwinsRS27;dxSkinMetropolisRS27;dxSkinMetropolisDarkRS27;dxSkinMcSkinRS27;dxSkinLondonLiquidSkyRS27;dxSkinLiquidSkyRS27;dxSkinLilianRS27;dxSkiniMaginaryRS27;dxSkinHighContrastRS27;dxSkinGlassOceansRS27;dxSkinFoggyRS27;dxSkinDevExpressStyleRS27;dxSkinDevExpressDarkStyleRS27;dxSkinDarkSideRS27;dxSkinDarkRoomRS27;dxSkinCoffeeRS27;dxSkinCaramelRS27;dxSkinBlueRS27;dxSkinBlueprintRS27;dxSkinBlackRS27;dxServerModeRS27;dxRichEditInplaceRS27;dxRichEditDocumentModelRS27;dxRichEditCoreRS27;dxRichEditControlRS27;dxRichEditControlOpenXMLFormatRS27;dxRichEditControlHtmlFormatRS27;dxRichEditControlDocFormatRS27;dxRichEditControlCoreRS27;dxRibbonRS27;dxRibbonCustomizationFormRS27;dxPSTeeChartRS27;dxPSRichEditControlLnkRS27;dxPSPrVwRibbonRS27;dxPSPrVwAdvRS27;dxPSLnksRS27;dxPSdxSpreadSheetLnkRS27;dxPSdxPDFViewerLnkRS27;dxPSdxOCLnkRS27;dxPSdxMapControlLnkRS27;dxPSdxLCLnkRS27;dxPSdxGaugeControlLnkRS27;dxPSdxFCLnkRS27;dxPSdxDBTVLnkRS27;dxPSdxDBOCLnkRS27;dxPSDBTeeChartRS27;dxPScxVGridLnkRS27;dxPScxTLLnkRS27;dxPScxSchedulerLnkRS27;dxPScxPivotGridLnkRS27;dxPScxPCProdRS27;dxPScxGridLnkRS27;dxPScxExtCommonRS27;dxPScxCommonRS27;dxPSCoreRS27;dxPDFViewerRS27;dxOrgCRS27;dxOrgChartAdvancedCustomizeFormRS27;dxNavBarRS27;dxmdsRS27;dxMapControlRS27;dxHttpIndyRequestRS27;dxGDIPlusRS27;dxGaugeControlRS27;dxFlowChartRS27;dxFlowChartLayoutsRS27;dxFlowChartDesignerRS27;dxFlowChartAdvancedCustomizeFormRS27;dxFireDACServerModeRS27;dxFireDACEMFRS27;dxEMFRS27;dxDockingRS27;dxDBXServerModeRS27;dxdbtrRS27;dxDBOrRS27;dxCoreRS27;dxComnRS27;dxCloudServiceLibraryRS27;dxBarRS27;dxBarExtItemsRS27;dxBarExtDBItemsRS27;dxBarDBNavRS27;dxADOServerModeRS27;dxADOEMFRS27;dcldxWizardControlRS27;dcldxtrmdRS27;dcldxTileControlRS27;dcldxTabbedMDIRS27;dcldxSpreadSheetRS27;dcldxSpreadSheetReportDesignerRS27;dcldxSpreadSheetCoreConditionalFormattingDialogsRS27;dcldxSpreadSheetConditionalFormattingDialogsRS27;dcldxSpellCheckerRS27;dcldxSkinsDesignHelperRS27;dcldxSkinsCoreRS27;dcldxServerModeRS27;dcldxRichEditControlRS27;dcldxRibbonRS27;dcldxRibbonCustomizationFormRS27;dcldxPSTeeChartRS27;dcldxPSRichEditControlLnkRS27;dcldxPSPrVwRibbonRS27;dcldxPSPrVwAdvRS27;dcldxPSLnksRS27;dcldxPSdxSpreadSheetLnkRS27;dcldxPSdxPDFViewerLnkRS27;dcldxPSdxOCLnkRS27;dcldxPSdxMapControlLnkRS27;dcldxPSdxLCLnkRS27;dcldxPSdxGaugeControlLnkRS27;dcldxPSdxFCLnkRS27;dcldxPSdxDBTVLnkRS27;dcldxPSdxDBOCLnkRS27;dcldxPSDBTeeChartRS27;dcldxPScxVGridLnkRS27;dcldxPScxTLLnkRS27;dcldxPScxSchedulerLnkRS27;dcldxPScxPivotGridLnkRS27;dcldxPScxGridLnkRS27;dcldxPScxExtCommonRS27;dcldxPScxCommonRS27;dcldxPSCoreRS27;dcldxPDFViewerRS27;dcldxOrgCRS27;dcldxOrgChartAdvancedCustomizeFormRS27;dcldxNavBarRS27;dcldxmdsRS27;dcldxMapControlRS27;dcldxIconLibraryRS27;dcldxHttpIndyRequestRS27;dcldxGaugeControlRS27;dcldxFlowChartRS27;dcldxFlowChartDesignerRS27;dcldxFlowChartAdvancedCustomizeFormRS27;dcldxFireDACServerModeRS27;dcldxFireDACEMFRS27;dcldxEMFRS27;dcldxDockingRS27;dcldxDBXServerModeRS27;dcldxdbtrRS27;dcldxDBOrRS27;dcldxCoreRS27;dcldxCloudServiceLibraryRS27;dcldxBarRS27;dcldxBarExtItemsRS27;dcldxBarExtDBItemsRS27;dcldxBarDBNavRS27;dcldxADOServerModeRS27;dcldxADOEMFRS27;dclcxVerticalGridRS27;dclcxTreeListRS27;dclcxTreeListdxBarPopupMenuRS27;dclcxSchedulerWebServiceStorageRS27;dclcxSchedulerTreeBrowserRS27;dclcxSchedulerRS27;dclcxSchedulerRibbonStyleEventEditorRS27;dclcxSchedulerGridRS27;dclcxPivotGridRS27;dclcxPivotGridOLAPRS27;dclcxPivotGridChartRS27;dclcxPageControldxBarPopupMenuRS27;dclcxLibraryRS27;dclcxGridWizardRS27;dclcxGridRS27;dclcxEditorFieldLinkRS27;cxVerticalGridRS27;cxTreeListRS27;cxTreeListdxBarPopupMenuRS27;cxSchedulerWebServiceStorageRS27;cxSchedulerTreeBrowserRS27;cxSchedulerRS27;cxSchedulerRibbonStyleEventEditorRS27;cxSchedulerGridRS27;cxPivotGridRS27;cxPivotGridOLAPRS27;cxPivotGridChartRS27;cxPageControldxBarPopupMenuRS27;cxLibraryRS27;cxGridRS27;cxFireDACAdaptersRS27;cxExportRS27;cxADOAdaptersRS27"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv4:Clean;dxWizardControlRS27:Clean;dxtrmdRS27:Clean;dxTileControlRS27:Clean;dxTabbedMDIRS27:Clean;dxSpreadSheetRS27:Clean;dxSpreadSheetReportDesignerRS27:Clean;dxSpreadSheetInplaceRichEditRS27:Clean;dxSpreadSheetCoreRS27:Clean;dxSpreadSheetCoreDialogsRS27:Clean;dxSpreadSheetCoreConditionalFormattingDialogsRS27:Clean;dxSpreadSheetConditionalFormattingDialogsRS27:Clean;dxSpellCheckerRS27:Clean;dxSkinXmas2008BlueRS27:Clean;dxSkinWhiteprintRS27:Clean;dxSkinVS2010RS27:Clean;dxSkinVisualStudio2013LightRS27:Clean;dxSkinVisualStudio2013DarkRS27:Clean;dxSkinVisualStudio2013BlueRS27:Clean;dxSkinValentineRS27:Clean;dxSkinTheBezierRS27:Clean;dxSkinTheAsphaltWorldRS27:Clean;dxSkinSummer2008RS27:Clean;dxSkinStardustRS27:Clean;dxSkinSpringTimeRS27:Clean;dxSkinSilverRS27:Clean;dxSkinSharpRS27:Clean;dxSkinSharpPlusRS27:Clean;dxSkinSevenRS27:Clean;dxSkinSevenClassicRS27:Clean;dxSkinsCoreRS27:Clean;dxSkinPumpkinRS27:Clean;dxSkinOffice2019ColorfulRS27:Clean;dxSkinOffice2016DarkRS27:Clean;dxSkinOffice2016ColorfulRS27:Clean;dxSkinOffice2013WhiteRS27:Clean;dxSkinOffice2013LightGrayRS27:Clean;dxSkinOffice2013DarkGrayRS27:Clean;dxSkinOffice2010SilverRS27:Clean;dxSkinOffice2010BlueRS27:Clean;dxSkinOffice2010BlackRS27:Clean;dxSkinOffice2007SilverRS27:Clean;dxSkinOffice2007PinkRS27:Clean;dxSkinOffice2007GreenRS27:Clean;dxSkinOffice2007BlueRS27:Clean;dxSkinOffice2007BlackRS27:Clean;dxSkinMoneyTwinsRS27:Clean;dxSkinMetropolisRS27:Clean;dxSkinMetropolisDarkRS27:Clean;dxSkinMcSkinRS27:Clean;dxSkinLondonLiquidSkyRS27:Clean;dxSkinLiquidSkyRS27:Clean;dxSkinLilianRS27:Clean;dxSkiniMaginaryRS27:Clean;dxSkinHighContrastRS27:Clean;dxSkinGlassOceansRS27:Clean;dxSkinFoggyRS27:Clean;dxSkinDevExpressStyleRS27:Clean;dxSkinDevExpressDarkStyleRS27:Clean;dxSkinDarkSideRS27:Clean;dxSkinDarkRoomRS27:Clean;dxSkinCoffeeRS27:Clean;dxSkinCaramelRS27:Clean;dxSkinBlueRS27:Clean;dxSkinBlueprintRS27:Clean;dxSkinBlackRS27:Clean;dxServerModeRS27:Clean;dxRichEditInplaceRS27:Clean;dxRichEditDocumentModelRS27:Clean;dxRichEditCoreRS27:Clean;dxRichEditControlRS27:Clean;dxRichEditControlOpenXMLFormatRS27:Clean;dxRichEditControlHtmlFormatRS27:Clean;dxRichEditControlDocFormatRS27:Clean;dxRichEditControlCoreRS27:Clean;dxRibbonRS27:Clean;dxRibbonCustomizationFormRS27:Clean;dxPSTeeChartRS27:Clean;dxPSRichEditControlLnkRS27:Clean;dxPSPrVwRibbonRS27:Clean;dxPSPrVwAdvRS27:Clean;dxPSLnksRS27:Clean;dxPSdxSpreadSheetLnkRS27:Clean;dxPSdxPDFViewerLnkRS27:Clean;dxPSdxOCLnkRS27:Clean;dxPSdxMapControlLnkRS27:Clean;dxPSdxLCLnkRS27:Clean;dxPSdxGaugeControlLnkRS27:Clean;dxPSdxFCLnkRS27:Clean;dxPSdxDBTVLnkRS27:Clean;dxPSdxDBOCLnkRS27:Clean;dxPSDBTeeChartRS27:Clean;dxPScxVGridLnkRS27:Clean;dxPScxTLLnkRS27:Clean;dxPScxSchedulerLnkRS27:Clean;dxPScxPivotGridLnkRS27:Clean;dxPScxPCProdRS27:Clean;dxPScxGridLnkRS27:Clean;dxPScxExtCommonRS27:Clean;dxPScxCommonRS27:Clean;dxPSCoreRS27:Clean;dxPDFViewerRS27:Clean;dxOrgCRS27:Clean;dxOrgChartAdvancedCustomizeFormRS27:Clean;dxNavBarRS27:Clean;dxmdsRS27:Clean;dxMapControlRS27:Clean;dxHttpIndyRequestRS27:Clean;dxGDIPlusRS27:Clean;dxGaugeControlRS27:Clean;dxFlowChartRS27:Clean;dxFlowChartLayoutsRS27:Clean;dxFlowChartDesignerRS27:Clean;dxFlowChartAdvancedCustomizeFormRS27:Clean;dxFireDACServerModeRS27:Clean;dxFireDACEMFRS27:Clean;dxEMFRS27:Clean;dxDockingRS27:Clean;dxDBXServerModeRS27:Clean;dxdbtrRS27:Clean;dxDBOrRS27:Clean;dxCoreRS27:Clean;dxComnRS27:Clean;dxCloudServiceLibraryRS27:Clean;dxBarRS27:Clean;dxBarExtItemsRS27:Clean;dxBarExtDBItemsRS27:Clean;dxBarDBNavRS27:Clean;dxADOServerModeRS27:Clean;dxADOEMFRS27:Clean;dcldxWizardControlRS27:Clean;dcldxtrmdRS27:Clean;dcldxTileControlRS27:Clean;dcldxTabbedMDIRS27:Clean;dcldxSpreadSheetRS27:Clean;dcldxSpreadSheetReportDesignerRS27:Clean;dcldxSpreadSheetCoreConditionalFormattingDialogsRS27:Clean;dcldxSpreadSheetConditionalFormattingDialogsRS27:Clean;dcldxSpellCheckerRS27:Clean;dcldxSkinsDesignHelperRS27:Clean;dcldxSkinsCoreRS27:Clean;dcldxServerModeRS27:Clean;dcldxRichEditControlRS27:Clean;dcldxRibbonRS27:Clean;dcldxRibbonCustomizationFormRS27:Clean;dcldxPSTeeChartRS27:Clean;dcldxPSRichEditControlLnkRS27:Clean;dcldxPSPrVwRibbonRS27:Clean;dcldxPSPrVwAdvRS27:Clean;dcldxPSLnksRS27:Clean;dcldxPSdxSpreadSheetLnkRS27:Clean;dcldxPSdxPDFViewerLnkRS27:Clean;dcldxPSdxOCLnkRS27:Clean;dcldxPSdxMapControlLnkRS27:Clean;dcldxPSdxLCLnkRS27:Clean;dcldxPSdxGaugeControlLnkRS27:Clean;dcldxPSdxFCLnkRS27:Clean;dcldxPSdxDBTVLnkRS27:Clean;dcldxPSdxDBOCLnkRS27:Clean;dcldxPSDBTeeChartRS27:Clean;dcldxPScxVGridLnkRS27:Clean;dcldxPScxTLLnkRS27:Clean;dcldxPScxSchedulerLnkRS27:Clean;dcldxPScxPivotGridLnkRS27:Clean;dcldxPScxGridLnkRS27:Clean;dcldxPScxExtCommonRS27:Clean;dcldxPScxCommonRS27:Clean;dcldxPSCoreRS27:Clean;dcldxPDFViewerRS27:Clean;dcldxOrgCRS27:Clean;dcldxOrgChartAdvancedCustomizeFormRS27:Clean;dcldxNavBarRS27:Clean;dcldxmdsRS27:Clean;dcldxMapControlRS27:Clean;dcldxIconLibraryRS27:Clean;dcldxHttpIndyRequestRS27:Clean;dcldxGaugeControlRS27:Clean;dcldxFlowChartRS27:Clean;dcldxFlowChartDesignerRS27:Clean;dcldxFlowChartAdvancedCustomizeFormRS27:Clean;dcldxFireDACServerModeRS27:Clean;dcldxFireDACEMFRS27:Clean;dcldxEMFRS27:Clean;dcldxDockingRS27:Clean;dcldxDBXServerModeRS27:Clean;dcldxdbtrRS27:Clean;dcldxDBOrRS27:Clean;dcldxCoreRS27:Clean;dcldxCloudServiceLibraryRS27:Clean;dcldxBarRS27:Clean;dcldxBarExtItemsRS27:Clean;dcldxBarExtDBItemsRS27:Clean;dcldxBarDBNavRS27:Clean;dcldxADOServerModeRS27:Clean;dcldxADOEMFRS27:Clean;dclcxVerticalGridRS27:Clean;dclcxTreeListRS27:Clean;dclcxTreeListdxBarPopupMenuRS27:Clean;dclcxSchedulerWebServiceStorageRS27:Clean;dclcxSchedulerTreeBrowserRS27:Clean;dclcxSchedulerRS27:Clean;dclcxSchedulerRibbonStyleEventEditorRS27:Clean;dclcxSchedulerGridRS27:Clean;dclcxPivotGridRS27:Clean;dclcxPivotGridOLAPRS27:Clean;dclcxPivotGridChartRS27:Clean;dclcxPageControldxBarPopupMenuRS27:Clean;dclcxLibraryRS27:Clean;dclcxGridWizardRS27:Clean;dclcxGridRS27:Clean;dclcxEditorFieldLinkRS27:Clean;cxVerticalGridRS27:Clean;cxTreeListRS27:Clean;cxTreeListdxBarPopupMenuRS27:Clean;cxSchedulerWebServiceStorageRS27:Clean;cxSchedulerTreeBrowserRS27:Clean;cxSchedulerRS27:Clean;cxSchedulerRibbonStyleEventEditorRS27:Clean;cxSchedulerGridRS27:Clean;cxPivotGridRS27:Clean;cxPivotGridOLAPRS27:Clean;cxPivotGridChartRS27:Clean;cxPageControldxBarPopupMenuRS27:Clean;cxLibraryRS27:Clean;cxGridRS27:Clean;cxFireDACAdaptersRS27:Clean;cxExportRS27:Clean;cxADOAdaptersRS27:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv4:Make;dxWizardControlRS27:Make;dxtrmdRS27:Make;dxTileControlRS27:Make;dxTabbedMDIRS27:Make;dxSpreadSheetRS27:Make;dxSpreadSheetReportDesignerRS27:Make;dxSpreadSheetInplaceRichEditRS27:Make;dxSpreadSheetCoreRS27:Make;dxSpreadSheetCoreDialogsRS27:Make;dxSpreadSheetCoreConditionalFormattingDialogsRS27:Make;dxSpreadSheetConditionalFormattingDialogsRS27:Make;dxSpellCheckerRS27:Make;dxSkinXmas2008BlueRS27:Make;dxSkinWhiteprintRS27:Make;dxSkinVS2010RS27:Make;dxSkinVisualStudio2013LightRS27:Make;dxSkinVisualStudio2013DarkRS27:Make;dxSkinVisualStudio2013BlueRS27:Make;dxSkinValentineRS27:Make;dxSkinTheBezierRS27:Make;dxSkinTheAsphaltWorldRS27:Make;dxSkinSummer2008RS27:Make;dxSkinStardustRS27:Make;dxSkinSpringTimeRS27:Make;dxSkinSilverRS27:Make;dxSkinSharpRS27:Make;dxSkinSharpPlusRS27:Make;dxSkinSevenRS27:Make;dxSkinSevenClassicRS27:Make;dxSkinsCoreRS27:Make;dxSkinPumpkinRS27:Make;dxSkinOffice2019ColorfulRS27:Make;dxSkinOffice2016DarkRS27:Make;dxSkinOffice2016ColorfulRS27:Make;dxSkinOffice2013WhiteRS27:Make;dxSkinOffice2013LightGrayRS27:Make;dxSkinOffice2013DarkGrayRS27:Make;dxSkinOffice2010SilverRS27:Make;dxSkinOffice2010BlueRS27:Make;dxSkinOffice2010BlackRS27:Make;dxSkinOffice2007SilverRS27:Make;dxSkinOffice2007PinkRS27:Make;dxSkinOffice2007GreenRS27:Make;dxSkinOffice2007BlueRS27:Make;dxSkinOffice2007BlackRS27:Make;dxSkinMoneyTwinsRS27:Make;dxSkinMetropolisRS27:Make;dxSkinMetropolisDarkRS27:Make;dxSkinMcSkinRS27:Make;dxSkinLondonLiquidSkyRS27:Make;dxSkinLiquidSkyRS27:Make;dxSkinLilianRS27:Make;dxSkiniMaginaryRS27:Make;dxSkinHighContrastRS27:Make;dxSkinGlassOceansRS27:Make;dxSkinFoggyRS27:Make;dxSkinDevExpressStyleRS27:Make;dxSkinDevExpressDarkStyleRS27:Make;dxSkinDarkSideRS27:Make;dxSkinDarkRoomRS27:Make;dxSkinCoffeeRS27:Make;dxSkinCaramelRS27:Make;dxSkinBlueRS27:Make;dxSkinBlueprintRS27:Make;dxSkinBlackRS27:Make;dxServerModeRS27:Make;dxRichEditInplaceRS27:Make;dxRichEditDocumentModelRS27:Make;dxRichEditCoreRS27:Make;dxRichEditControlRS27:Make;dxRichEditControlOpenXMLFormatRS27:Make;dxRichEditControlHtmlFormatRS27:Make;dxRichEditControlDocFormatRS27:Make;dxRichEditControlCoreRS27:Make;dxRibbonRS27:Make;dxRibbonCustomizationFormRS27:Make;dxPSTeeChartRS27:Make;dxPSRichEditControlLnkRS27:Make;dxPSPrVwRibbonRS27:Make;dxPSPrVwAdvRS27:Make;dxPSLnksRS27:Make;dxPSdxSpreadSheetLnkRS27:Make;dxPSdxPDFViewerLnkRS27:Make;dxPSdxOCLnkRS27:Make;dxPSdxMapControlLnkRS27:Make;dxPSdxLCLnkRS27:Make;dxPSdxGaugeControlLnkRS27:Make;dxPSdxFCLnkRS27:Make;dxPSdxDBTVLnkRS27:Make;dxPSdxDBOCLnkRS27:Make;dxPSDBTeeChartRS27:Make;dxPScxVGridLnkRS27:Make;dxPScxTLLnkRS27:Make;dxPScxSchedulerLnkRS27:Make;dxPScxPivotGridLnkRS27:Make;dxPScxPCProdRS27:Make;dxPScxGridLnkRS27:Make;dxPScxExtCommonRS27:Make;dxPScxCommonRS27:Make;dxPSCoreRS27:Make;dxPDFViewerRS27:Make;dxOrgCRS27:Make;dxOrgChartAdvancedCustomizeFormRS27:Make;dxNavBarRS27:Make;dxmdsRS27:Make;dxMapControlRS27:Make;dxHttpIndyRequestRS27:Make;dxGDIPlusRS27:Make;dxGaugeControlRS27:Make;dxFlowChartRS27:Make;dxFlowChartLayoutsRS27:Make;dxFlowChartDesignerRS27:Make;dxFlowChartAdvancedCustomizeFormRS27:Make;dxFireDACServerModeRS27:Make;dxFireDACEMFRS27:Make;dxEMFRS27:Make;dxDockingRS27:Make;dxDBXServerModeRS27:Make;dxdbtrRS27:Make;dxDBOrRS27:Make;dxCoreRS27:Make;dxComnRS27:Make;dxCloudServiceLibraryRS27:Make;dxBarRS27:Make;dxBarExtItemsRS27:Make;dxBarExtDBItemsRS27:Make;dxBarDBNavRS27:Make;dxADOServerModeRS27:Make;dxADOEMFRS27:Make;dcldxWizardControlRS27:Make;dcldxtrmdRS27:Make;dcldxTileControlRS27:Make;dcldxTabbedMDIRS27:Make;dcldxSpreadSheetRS27:Make;dcldxSpreadSheetReportDesignerRS27:Make;dcldxSpreadSheetCoreConditionalFormattingDialogsRS27:Make;dcldxSpreadSheetConditionalFormattingDialogsRS27:Make;dcldxSpellCheckerRS27:Make;dcldxSkinsDesignHelperRS27:Make;dcldxSkinsCoreRS27:Make;dcldxServerModeRS27:Make;dcldxRichEditControlRS27:Make;dcldxRibbonRS27:Make;dcldxRibbonCustomizationFormRS27:Make;dcldxPSTeeChartRS27:Make;dcldxPSRichEditControlLnkRS27:Make;dcldxPSPrVwRibbonRS27:Make;dcldxPSPrVwAdvRS27:Make;dcldxPSLnksRS27:Make;dcldxPSdxSpreadSheetLnkRS27:Make;dcldxPSdxPDFViewerLnkRS27:Make;dcldxPSdxOCLnkRS27:Make;dcldxPSdxMapControlLnkRS27:Make;dcldxPSdxLCLnkRS27:Make;dcldxPSdxGaugeControlLnkRS27:Make;dcldxPSdxFCLnkRS27:Make;dcldxPSdxDBTVLnkRS27:Make;dcldxPSdxDBOCLnkRS27:Make;dcldxPSDBTeeChartRS27:Make;dcldxPScxVGridLnkRS27:Make;dcldxPScxTLLnkRS27:Make;dcldxPScxSchedulerLnkRS27:Make;dcldxPScxPivotGridLnkRS27:Make;dcldxPScxGridLnkRS27:Make;dcldxPScxExtCommonRS27:Make;dcldxPScxCommonRS27:Make;dcldxPSCoreRS27:Make;dcldxPDFViewerRS27:Make;dcldxOrgCRS27:Make;dcldxOrgChartAdvancedCustomizeFormRS27:Make;dcldxNavBarRS27:Make;dcldxmdsRS27:Make;dcldxMapControlRS27:Make;dcldxIconLibraryRS27:Make;dcldxHttpIndyRequestRS27:Make;dcldxGaugeControlRS27:Make;dcldxFlowChartRS27:Make;dcldxFlowChartDesignerRS27:Make;dcldxFlowChartAdvancedCustomizeFormRS27:Make;dcldxFireDACServerModeRS27:Make;dcldxFireDACEMFRS27:Make;dcldxEMFRS27:Make;dcldxDockingRS27:Make;dcldxDBXServerModeRS27:Make;dcldxdbtrRS27:Make;dcldxDBOrRS27:Make;dcldxCoreRS27:Make;dcldxCloudServiceLibraryRS27:Make;dcldxBarRS27:Make;dcldxBarExtItemsRS27:Make;dcldxBarExtDBItemsRS27:Make;dcldxBarDBNavRS27:Make;dcldxADOServerModeRS27:Make;dcldxADOEMFRS27:Make;dclcxVerticalGridRS27:Make;dclcxTreeListRS27:Make;dclcxTreeListdxBarPopupMenuRS27:Make;dclcxSchedulerWebServiceStorageRS27:Make;dclcxSchedulerTreeBrowserRS27:Make;dclcxSchedulerRS27:Make;dclcxSchedulerRibbonStyleEventEditorRS27:Make;dclcxSchedulerGridRS27:Make;dclcxPivotGridRS27:Make;dclcxPivotGridOLAPRS27:Make;dclcxPivotGridChartRS27:Make;dclcxPageControldxBarPopupMenuRS27:Make;dclcxLibraryRS27:Make;dclcxGridWizardRS27:Make;dclcxGridRS27:Make;dclcxEditorFieldLinkRS27:Make;cxVerticalGridRS27:Make;cxTreeListRS27:Make;cxTreeListdxBarPopupMenuRS27:Make;cxSchedulerWebServiceStorageRS27:Make;cxSchedulerTreeBrowserRS27:Make;cxSchedulerRS27:Make;cxSchedulerRibbonStyleEventEditorRS27:Make;cxSchedulerGridRS27:Make;cxPivotGridRS27:Make;cxPivotGridOLAPRS27:Make;cxPivotGridChartRS27:Make;cxPageControldxBarPopupMenuRS27:Make;cxLibraryRS27:Make;cxGridRS27:Make;cxFireDACAdaptersRS27:Make;cxExportRS27:Make;cxADOAdaptersRS27:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

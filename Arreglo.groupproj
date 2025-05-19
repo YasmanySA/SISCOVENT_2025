@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C56B2D31-8E03-45E8-9C1B-C659E110134A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Contabilidad\SISCOVENT v2.1\Codigos de SISCOVENT - copia\SISCOVENTv1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Contabilidad\SISCOVENT v2.0\Codigos Proyecto\Codigos Deplhi 10.2.3 New\SISCOVENTarreglado.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Administrador\Documents\Devart\UniDAC for RAD Studio 10.3\Demos\UniDacDemo\UniDacDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv2">
+        <MSBuild Projects="SISCOVENTv2.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv2:Clean">
+        <MSBuild Projects="SISCOVENTv2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv2:Make">
+        <MSBuild Projects="SISCOVENTv2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SISCOVENTv1">
+        <MSBuild Projects="..\..\Contabilidad\SISCOVENT v2.1\Codigos de SISCOVENT - copia\SISCOVENTv1.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv1:Clean">
+        <MSBuild Projects="..\..\Contabilidad\SISCOVENT v2.1\Codigos de SISCOVENT - copia\SISCOVENTv1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv1:Make">
+        <MSBuild Projects="..\..\Contabilidad\SISCOVENT v2.1\Codigos de SISCOVENT - copia\SISCOVENTv1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SISCOVENTarreglado">
+        <MSBuild Projects="..\..\Contabilidad\SISCOVENT v2.0\Codigos Proyecto\Codigos Deplhi 10.2.3 New\SISCOVENTarreglado.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTarreglado:Clean">
+        <MSBuild Projects="..\..\Contabilidad\SISCOVENT v2.0\Codigos Proyecto\Codigos Deplhi 10.2.3 New\SISCOVENTarreglado.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTarreglado:Make">
+        <MSBuild Projects="..\..\Contabilidad\SISCOVENT v2.0\Codigos Proyecto\Codigos Deplhi 10.2.3 New\SISCOVENTarreglado.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UniDacDemo">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Devart\UniDAC for RAD Studio 10.3\Demos\UniDacDemo\UniDacDemo.dproj"/>
+    </Target>
+    <Target Name="UniDacDemo:Clean">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Devart\UniDAC for RAD Studio 10.3\Demos\UniDacDemo\UniDacDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UniDacDemo:Make">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Devart\UniDAC for RAD Studio 10.3\Demos\UniDacDemo\UniDacDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv2;SISCOVENTv1;SISCOVENTarreglado;UniDacDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv2:Clean;SISCOVENTv1:Clean;SISCOVENTarreglado:Clean;UniDacDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv2:Make;SISCOVENTv1:Make;SISCOVENTarreglado:Make;UniDacDemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

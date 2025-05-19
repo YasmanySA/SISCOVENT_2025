@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="">
+  <PropertyGroup>
+    <Profile_platform>Android64</Profile_platform>
+    <Profile_host>localhost</Profile_host>
+    <Profile_port>64211</Profile_port>
+    <Profile_sdkname>AndroidSDK25.2.5_64bit.sdk</Profile_sdkname>
+    <Profile_displayname>Android SDK 25.2.5 64-bit</Profile_displayname>
+    <Profile_version>25.2.5</Profile_version>
+    <Profile_sysroot>D:\01Programación\PlatformSDKs\SDK 26</Profile_sysroot>
+    <NDKArmLinuxAndroidFile>C:\Users\Public\Documents\Embarcadero\Studio\22.0\CatalogRepository\AndroidNDK-21-22.0.46141.0937\android-ndk-r21\toolchains\aarch64-linux-android-4.9\prebuilt\windows-x86_64\aarch64-linux-android\bin\ld.exe</NDKArmLinuxAndroidFile>
+    <NDKArmLinuxAndroidStripFile>C:\Users\Public\Documents\Embarcadero\Studio\22.0\CatalogRepository\AndroidNDK-21-22.0.46141.0937\android-ndk-r21\toolchains\aarch64-linux-android-4.9\prebuilt\windows-x86_64\aarch64-linux-android\bin\strip.exe</NDKArmLinuxAndroidStripFile>
+    <NDKApiPath>C:\Users\Public\Documents\Embarcadero\Studio\22.0\CatalogRepository\AndroidNDK-21-22.0.46141.0937\android-ndk-r21\platforms\android-29</NDKApiPath>
+    <NDKBasePath>C:\Users\Public\Documents\Embarcadero\Studio\22.0\CatalogRepository\AndroidNDK-21-22.0.46141.0937\android-ndk-r21</NDKBasePath>
+    <NDKGdbServerPath>C:\Users\Public\Documents\Embarcadero\Studio\22.0\CatalogRepository\AndroidNDK-21-22.0.46141.0937\android-ndk-r21\prebuilt\android-arm64\gdbserver\gdbserver</NDKGdbServerPath>
+    <SDKZipAlignPath>D:\01Programación\PlatformSDKs\SDK 26\build-tools\android-10\zipalign.exe</SDKZipAlignPath>
+    <SDKApkSignerPath>D:\01Programación\PlatformSDKs\SDK 26\build-tools\android-10\lib\apksigner.jar</SDKApkSignerPath>
+    <SDKAndroidPath>D:\01Programación\PlatformSDKs\SDK 26\tools\Android.bat</SDKAndroidPath>
+    <SDKAdbPath>D:\01Programación\PlatformSDKs\SDK 26\platform-tools\Adb.exe</SDKAdbPath>
+    <SDKAaptPath>D:\01Programación\PlatformSDKs\SDK 26\platforms\android-4\tools\aapt.exe</SDKAaptPath>
+    <SDKApiLevelPath>D:\01Programación\PlatformSDKs\SDK 26\platforms\android-10\android.jar</SDKApiLevelPath>
+    <JDKPath>C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot</JDKPath>
+    <JDKJarsignerPath>C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin\jarsigner.exe</JDKJarsignerPath>
+    <JDKKeyToolPath>C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin\keytool.exe</JDKKeyToolPath>
+    <DelphiNDKLibraryPath>C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository\AndroidNDK-21-21.0.40680.4203\android-ndk-r21\platforms\android-23\arch-arm64\usr\lib;C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository\AndroidNDK-21-21.0.40680.4203\android-ndk-r21\sources\cxx-stl\llvm-libc++\libs\arm64-v8a</DelphiNDKLibraryPath>
+    <CBuilderNDKLibraryPath>C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository\AndroidNDK-21-21.0.40680.4203\android-ndk-r21\platforms\android-23\arch-arm64\usr\lib</CBuilderNDKLibraryPath>
+    <Profile_password>AB1401D23AF8F3C66832CE6040E1FA2D</Profile_password>
+  </PropertyGroup>
+</Project>
