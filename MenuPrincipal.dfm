@@ -1,0 +1,103 @@
+object Menu: TMenu
+  Left = 0
+  Top = 0
+  Caption = 'Menu'
+  ClientHeight = 663
+  ClientWidth = 677
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object dxRibbon1: TdxRibbon
+    Left = 0
+    Top = 0
+    Width = 677
+    Height = 159
+    ApplicationButton.Glyph.SourceDPI = 96
+    ApplicationButton.Glyph.Data = {
+      89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+      F40000001974455874536F6674776172650041646F626520496D616765526561
+      647971C9653C0000000B744558745469746C6500486F6D653B1E746438000000
+      EB49444154785EEDD3BD0DC230104771A2CCC508D067010660842813F0215121
+      216006188079686811E6288C907CE445E793D2B8788D25FBFF6B3C09218CDA17
+      D0759DA5EA93E19E0BA0968ED28E110CB08C9FA5F089110CC818D711B3F61A7E
+      2380715C47F801787C231D3484001EF9001EAFA45A43CCDBCB3422CC001E8F40
+      463060F8F83AFD768C2040E63823089039CE08A90280C7382300C0E32E081DC0
+      E39E080D7082714FC456032CA45704C0B80511014FA9D10011B192C29F8140C1
+      DDBDD4E037EC03DC6FCBBE00A07FC3A40848CE0702B43793732BA0000A007207
+      9872011480770018AF027803B71C994C215DB42C0000000049454E44AE426082}
+    ApplicationButton.Menu = dxRibbonBackstageView1
+    BarManager = dxBarManager1
+    ColorSchemeName = 'Blue'
+    QuickAccessToolbar.Toolbar = dxBarManager1Bar1
+    Contexts = <>
+    TabOrder = 0
+    TabStop = False
+    object dxRibbon1Tab1: TdxRibbonTab
+      Active = True
+      Caption = 'Clasificador'
+      Groups = <>
+      Index = 0
+    end
+  end
+  object dxRibbonBackstageView1: TdxRibbonBackstageView
+    Left = 104
+    Top = 336
+    Width = 450
+    Height = 300
+    Buttons = <>
+    Ribbon = dxRibbon1
+  end
+  object dxBarManager1: TdxBarManager
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    Categories.Strings = (
+      'Default')
+    Categories.ItemsVisibles = (
+      2)
+    Categories.Visibles = (
+      True)
+    PopupMenuLinks = <>
+    UseSystemFont = True
+    Left = 240
+    Top = 280
+    PixelsPerInch = 96
+    object dxBarManager1Bar1: TdxBar
+      Caption = 'tool'
+      CaptionButtons = <>
+      DockedLeft = 0
+      DockedTop = 0
+      FloatLeft = 705
+      FloatTop = 2
+      FloatClientWidth = 0
+      FloatClientHeight = 0
+      Glyph.SourceDPI = 96
+      Glyph.Data = {
+        89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+        F40000001974455874536F6674776172650041646F626520496D616765526561
+        647971C9653C0000000B744558745469746C6500486F6D653B1E746438000000
+        EB49444154785EEDD3BD0DC230104771A2CCC508D067010660842813F0215121
+        216006188079686811E6288C907CE445E793D2B8788D25FBFF6B3C09218CDA17
+        D0759DA5EA93E19E0BA0968ED28E110CB08C9FA5F089110CC818D711B3F61A7E
+        2380715C47F801787C231D3484001EF9001EAFA45A43CCDBCB3422CC001E8F40
+        463060F8F83AFD768C2040E63823089039CE08A90280C7382300C0E32E081DC0
+        E39E080D7082714FC456032CA45704C0B80511014FA9D10011B192C29F8140C1
+        DDBDD4E037EC03DC6FCBBE00A07FC3A40848CE0702B43793732BA0000A007207
+        9872011480770018AF027803B71C994C215DB42C0000000049454E44AE426082}
+      ItemLinks = <>
+      OneOnRow = True
+      Row = 0
+      UseOwnFont = False
+      Visible = True
+      WholeRow = False
+    end
+  end
+end

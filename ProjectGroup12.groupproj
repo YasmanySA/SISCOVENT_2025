@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8072A257-D1B3-40AF-9EEE-40DFA2949532}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv2023.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Project28.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\Clever Internet\Demos\Delphi\GMailSMTP\GMailSMTP_104.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv2023">
+        <MSBuild Projects="SISCOVENTv2023.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Clean">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Make">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project28">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Project28.dproj"/>
+    </Target>
+    <Target Name="Project28:Clean">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Project28.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project28:Make">
+        <MSBuild Projects="D:\03Personal\09Salvas\Mis documentos\Embarcadero\Studio\Projects\Project28.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GMailSMTP_104">
+        <MSBuild Projects="C:\delphi\Clever Internet\Demos\Delphi\GMailSMTP\GMailSMTP_104.dproj"/>
+    </Target>
+    <Target Name="GMailSMTP_104:Clean">
+        <MSBuild Projects="C:\delphi\Clever Internet\Demos\Delphi\GMailSMTP\GMailSMTP_104.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GMailSMTP_104:Make">
+        <MSBuild Projects="C:\delphi\Clever Internet\Demos\Delphi\GMailSMTP\GMailSMTP_104.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd:Clean">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd:Make">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv2023;Project28;GMailSMTP_104;OverbyteIcsMailSnd"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv2023:Clean;Project28:Clean;GMailSMTP_104:Clean;OverbyteIcsMailSnd:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv2023:Make;Project28:Make;GMailSMTP_104:Make;OverbyteIcsMailSnd:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

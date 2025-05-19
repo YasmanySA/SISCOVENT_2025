@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{36410A3C-8136-44F0-8077-003F884E03E3}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv2023.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv2023">
+        <MSBuild Projects="SISCOVENTv2023.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Clean">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Make">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project10">
+        <MSBuild Projects="..\..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj"/>
+    </Target>
+    <Target Name="Project10:Clean">
+        <MSBuild Projects="..\..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project10:Make">
+        <MSBuild Projects="..\..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv2023;Project10"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv2023:Clean;Project10:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv2023:Make;Project10:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,108 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{BC2788B6-18E0-4AFC-AAD0-1050AF0059C8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv2023.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project4.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\Descargas\ProyectoA_Envio_Email_TLS_Codigo_Fuente_Delphi_6\EnvioEMailTLS.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project5.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSndAsync.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailHtml.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv2023">
+        <MSBuild Projects="SISCOVENTv2023.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Clean">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Make">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project4">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project4.dproj"/>
+    </Target>
+    <Target Name="Project4:Clean">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project4:Make">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnvioEMailTLS">
+        <MSBuild Projects="D:\Descargas\ProyectoA_Envio_Email_TLS_Codigo_Fuente_Delphi_6\EnvioEMailTLS.dproj"/>
+    </Target>
+    <Target Name="EnvioEMailTLS:Clean">
+        <MSBuild Projects="D:\Descargas\ProyectoA_Envio_Email_TLS_Codigo_Fuente_Delphi_6\EnvioEMailTLS.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnvioEMailTLS:Make">
+        <MSBuild Projects="D:\Descargas\ProyectoA_Envio_Email_TLS_Codigo_Fuente_Delphi_6\EnvioEMailTLS.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project5">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project5.dproj"/>
+    </Target>
+    <Target Name="Project5:Clean">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project5:Make">
+        <MSBuild Projects="C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSndAsync">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSndAsync.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSndAsync:Clean">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSndAsync.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSndAsync:Make">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSndAsync.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd:Clean">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd:Make">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailHtml">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailHtml.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailHtml:Clean">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailHtml.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailHtml:Make">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailHtml.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv2023;Project4;EnvioEMailTLS;Project5;OverbyteIcsMailSndAsync;OverbyteIcsMailSnd;OverbyteIcsMailHtml"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv2023:Clean;Project4:Clean;EnvioEMailTLS:Clean;Project5:Clean;OverbyteIcsMailSndAsync:Clean;OverbyteIcsMailSnd:Clean;OverbyteIcsMailHtml:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv2023:Make;Project4:Make;EnvioEMailTLS:Make;Project5:Make;OverbyteIcsMailSndAsync:Make;OverbyteIcsMailSnd:Make;OverbyteIcsMailHtml:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

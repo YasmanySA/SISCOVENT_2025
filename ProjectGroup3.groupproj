@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E41B0327-6A30-42F2-AB0F-8881C1AF30BC}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv2023.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\Embarcadero\Studio\22.0\Samples\Object Pascal\VCL\Windows 10 Notifications\NotificationsProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\Documentos\Embarcadero\Studio\Projects\PruebaNotiication.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="D:\Escritorio\Escritorio\json\Project7.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\DelphiJSON\DelphiJSON.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv2023">
+        <MSBuild Projects="SISCOVENTv2023.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Clean">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Make">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project10">
+        <MSBuild Projects="..\..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj"/>
+    </Target>
+    <Target Name="Project10:Clean">
+        <MSBuild Projects="..\..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project10:Make">
+        <MSBuild Projects="..\..\tutoriales de enzona\Comprar prducto y pagar\Project10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NotificationsProject">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\22.0\Samples\Object Pascal\VCL\Windows 10 Notifications\NotificationsProject.dproj"/>
+    </Target>
+    <Target Name="NotificationsProject:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\22.0\Samples\Object Pascal\VCL\Windows 10 Notifications\NotificationsProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NotificationsProject:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\Embarcadero\Studio\22.0\Samples\Object Pascal\VCL\Windows 10 Notifications\NotificationsProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PruebaNotiication">
+        <MSBuild Projects="D:\Documentos\Embarcadero\Studio\Projects\PruebaNotiication.dproj"/>
+    </Target>
+    <Target Name="PruebaNotiication:Clean">
+        <MSBuild Projects="D:\Documentos\Embarcadero\Studio\Projects\PruebaNotiication.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PruebaNotiication:Make">
+        <MSBuild Projects="D:\Documentos\Embarcadero\Studio\Projects\PruebaNotiication.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project7">
+        <MSBuild Projects="D:\Escritorio\Escritorio\json\Project7.dproj"/>
+    </Target>
+    <Target Name="Project7:Clean">
+        <MSBuild Projects="D:\Escritorio\Escritorio\json\Project7.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project7:Make">
+        <MSBuild Projects="D:\Escritorio\Escritorio\json\Project7.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiJSON">
+        <MSBuild Projects="..\..\DelphiJSON\DelphiJSON.dproj"/>
+    </Target>
+    <Target Name="DelphiJSON:Clean">
+        <MSBuild Projects="..\..\DelphiJSON\DelphiJSON.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiJSON:Make">
+        <MSBuild Projects="..\..\DelphiJSON\DelphiJSON.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv2023;Project10;NotificationsProject;PruebaNotiication;Project7;DelphiJSON"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv2023:Clean;Project10:Clean;NotificationsProject:Clean;PruebaNotiication:Clean;Project7:Clean;DelphiJSON:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv2023:Make;Project10:Make;NotificationsProject:Make;PruebaNotiication:Make;Project7:Make;DelphiJSON:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

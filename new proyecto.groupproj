@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{402BAA4C-A38F-4843-B836-2CB39D07BD14}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv2023.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailHtml.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv2023">
+        <MSBuild Projects="SISCOVENTv2023.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Clean">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv2023:Make">
+        <MSBuild Projects="SISCOVENTv2023.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailHtml">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailHtml.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailHtml:Clean">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailHtml.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailHtml:Make">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailHtml.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd:Clean">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OverbyteIcsMailSnd:Make">
+        <MSBuild Projects="C:\delphi\icsv\Samples\Delphi\MailNewsDemos\OverbyteIcsMailSnd.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv2023;OverbyteIcsMailHtml;OverbyteIcsMailSnd"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv2023:Clean;OverbyteIcsMailHtml:Clean;OverbyteIcsMailSnd:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv2023:Make;OverbyteIcsMailHtml:Make;OverbyteIcsMailSnd:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

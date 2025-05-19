@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{567F68E5-864F-4D1C-87AD-4E8CF6E3591D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SISCOVENTv2022.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\DragDropDemo\DragDropDemoD104Sydney.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="G:\03EstudioFotos\03Encargos a corto plazo\02Tarjetas de Promocion\04Delacrem\Tarjetas Free\APP\DelaCrem.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Programacion\Tu Diploma\CC\TuDiploma.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\instantphoto\Instantphoto2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SISCOVENTv2022">
+        <MSBuild Projects="SISCOVENTv2022.dproj"/>
+    </Target>
+    <Target Name="SISCOVENTv2022:Clean">
+        <MSBuild Projects="SISCOVENTv2022.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SISCOVENTv2022:Make">
+        <MSBuild Projects="SISCOVENTv2022.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DragDropDemoD104Sydney">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\DragDropDemo\DragDropDemoD104Sydney.dproj"/>
+    </Target>
+    <Target Name="DragDropDemoD104Sydney:Clean">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\DragDropDemo\DragDropDemoD104Sydney.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DragDropDemoD104Sydney:Make">
+        <MSBuild Projects="C:\Users\Public\Documents\DevExpress\VCL\Demos\ExpressQuantumGrid\Delphi\DragDropDemo\DragDropDemoD104Sydney.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelaCrem">
+        <MSBuild Projects="G:\03EstudioFotos\03Encargos a corto plazo\02Tarjetas de Promocion\04Delacrem\Tarjetas Free\APP\DelaCrem.dproj"/>
+    </Target>
+    <Target Name="DelaCrem:Clean">
+        <MSBuild Projects="G:\03EstudioFotos\03Encargos a corto plazo\02Tarjetas de Promocion\04Delacrem\Tarjetas Free\APP\DelaCrem.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelaCrem:Make">
+        <MSBuild Projects="G:\03EstudioFotos\03Encargos a corto plazo\02Tarjetas de Promocion\04Delacrem\Tarjetas Free\APP\DelaCrem.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TuDiploma">
+        <MSBuild Projects="..\..\Programacion\Tu Diploma\CC\TuDiploma.dproj"/>
+    </Target>
+    <Target Name="TuDiploma:Clean">
+        <MSBuild Projects="..\..\Programacion\Tu Diploma\CC\TuDiploma.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TuDiploma:Make">
+        <MSBuild Projects="..\..\Programacion\Tu Diploma\CC\TuDiploma.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Instantphoto2">
+        <MSBuild Projects="..\instantphoto\Instantphoto2.dproj"/>
+    </Target>
+    <Target Name="Instantphoto2:Clean">
+        <MSBuild Projects="..\instantphoto\Instantphoto2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Instantphoto2:Make">
+        <MSBuild Projects="..\instantphoto\Instantphoto2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SISCOVENTv2022;DragDropDemoD104Sydney;DelaCrem;TuDiploma;Instantphoto2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SISCOVENTv2022:Clean;DragDropDemoD104Sydney:Clean;DelaCrem:Clean;TuDiploma:Clean;Instantphoto2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SISCOVENTv2022:Make;DragDropDemoD104Sydney:Make;DelaCrem:Make;TuDiploma:Make;Instantphoto2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
