@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/04/26 08:36:47.000.200,=rtl.dcp</Transaction>
+    <Transaction>2019/04/26 08:36:48.000.688,=C:\Users\Administrador\Documents\Embarcadero\Studio\20.0\Imports\ACTIVEVOICEPROJECTLib_TLB.pas</Transaction>
+    <Transaction>2019/04/26 08:36:48.000.659,=C:\Users\Administrador\Documents\Embarcadero\Studio\20.0\Imports\ACTIVEVOICEPROJECTLib_TLB.pas</Transaction>
+    <Transaction>2019/04/26 08:36:48.000.692,=vcl.dcp</Transaction>
+  </Transactions>
+</BorlandProject>
